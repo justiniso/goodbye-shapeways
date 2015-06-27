@@ -1,7 +1,42 @@
 <html>
-    <head></head>
+    <head>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                min-height: 1200px;
+            }
+        </style>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                var $iframe = jQuery("iframe");
+                jQuery("a").on("click", function (e) {
+                    e.preventDefault();
+                    $iframe.attr("src", this.href);
+                });
+            });
+        </script>
+    </head>
     <body>
-        test
+        <ul>
+            <li><a href="homepage/2008-09-13/index.html">Homepage - September 13, 2008</a></li>
+            <li><a href="homepage/2010-04-14/index.html">Homepage - April 4, 2010</a></li>
+            <li><a href="homepage/2010-09-29/index.html">Homepage - September 29, 2010</a></li>
+            <li><a href="homepage/2012-06-15/index.html">Homepage - June 15, 2012</a></li>
+            <li><a href="homepage/2012-09-08/index.html">Homepage - September 8, 2012</a></li>
+            <li><a href="homepage/2013-01-05/index.html">Homepage - January 5, 2013</a></li>
+            <li><a href="homepage/2013-04-18/index.html">Homepage - April 18, 2013</a></li>
+            <li><a href="homepage/2013-08-21/index.html">Homepage - August 21, 2013</a></li>
+            <li><a href="homepage/2014-04-30/index.html">Homepage - April 30, 2014</a></li>
+            <li><a href="homepage/2014-05-05/index.html">Homepage - May 5, 2014</a></li>
+        </ul>
+        <iframe src="http://shapeways.com"></iframe>
     </body>
 </html>
 
