@@ -405,13 +405,13 @@ input[type=submit], input[type=reset], input[type=button] {
   float: left;
   height: 30px;
   width: 163px;
-  background: url(/web/20120909010403/http://static1.sw-cdn.net/rrstatic/img/sw-logo-white.png) top left no-repeat;
+  background: url(../supp/sw-logo-white.png) top left no-repeat;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
   transition: none; }
   #header-logo:hover {
-    background: url(/web/20120909010403/http://static1.sw-cdn.net/rrstatic/img/sw-logo-white.png) bottom left no-repeat; }
+    background: url(../supp/sw-logo-white.png) bottom left no-repeat; }
 
 #header-search {
   margin: 0;
@@ -1388,7 +1388,7 @@ ul #nav li a:hover {
 /*}*/
 .sup-logo {
   margin: 30px auto;
-  background: url("/web/20120909010403/http://static1.sw-cdn.net/rrstatic/img/sw-logo-white.png") top left no-repeat;
+  background: url("../supp/sw-logo-white.png") top left no-repeat;
   width: 163px;
   height: 29px;
   border: none;
@@ -1399,7 +1399,7 @@ ul #nav li a:hover {
   transition: none; }
   .sup-logo:hover {
     margin: 31px auto 29px auto;
-    background: url("/web/20120909010403/http://static1.sw-cdn.net/rrstatic/img/sw-logo-white.png") bottom left no-repeat; }
+    background: url("../supp/sw-logo-white.png") bottom left no-repeat; }
 
 .sup-input {
   background: #f5f5f5;
@@ -1623,7 +1623,7 @@ ul.form {
   display: block;
   width: 100%;
   position: relative;
-  background: url(/web/20120909010403/http://static1.sw-cdn.net/rrstatic/img/portal/home/main_cta_bg_video.jpg) center no-repeat white;
+  background: url(../supp/main_cta_bg_video.jpg) center no-repeat white;
   margin: 0 auto;
   text-shadow: none; }
   .main-cta .main-cta-video {

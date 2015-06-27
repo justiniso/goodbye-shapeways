@@ -19,6 +19,8 @@
                 jQuery("a").on("click", function (e) {
                     e.preventDefault();
                     $iframe.attr("src", this.href);
+
+                    jQuery(".current").html(jQuery(this).html());
                 });
             });
         </script>
@@ -35,7 +37,9 @@
             <li><a href="homepage/2013-08-21/index.html">Homepage - August 21, 2013</a></li>
             <li><a href="homepage/2014-04-30/index.html">Homepage - April 30, 2014</a></li>
             <li><a href="homepage/2014-05-05/index.html">Homepage - May 5, 2014</a></li>
+            <li><a href="http://shapeways.com">Homepage - Today</a></li>
         </ul>
+        <span class="current">Present</span>
         <iframe src="http://shapeways.com"></iframe>
     </body>
 </html>
