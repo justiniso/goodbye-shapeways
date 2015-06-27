@@ -1,0 +1,691 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 5:29:45 Jun 15, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:33:54 Jun 27, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* SEARCH */
+
+.results-header {
+  width: 960px;
+  margin: 30px 0 20px 0;
+}
+
+.results-header .search-results-query-count {
+  float: left;
+  width: 510px;
+  position: relative;
+}
+
+.grid-view .results-header .search-results-query-count {
+  float: left;
+  width: 480px;
+  position: relative;
+}
+
+.results-header .results-sort {
+  float: left;
+  text-align: right;
+  width: 175px;
+  margin: 7px 20px 0 0;
+}
+
+.my-models .results-header .results-sort {
+  margin: 0px 20px 0 0;
+}
+
+.search-results-header .results-sort {
+  float: left;
+  text-align: right;
+  width: 175px;
+  margin: 28px 20px 0 0;
+}
+
+.grid-view .results-sort {
+  float: left;
+  text-align: right;
+  width: 175px;
+  margin: 7px 20px 0 0;
+}
+
+.my-models .grid-view .results-sort {
+  margin: 0px 20px 0 0;
+}
+
+.results-header .results-sort fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.results-count {
+  font: normal normal normal 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 5px 0 0 0;
+}
+
+.result-item {
+  width: 640px;
+  margin: 0 0 20px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #dddddd;
+  -moz-box-shadow: 0 0 5px #eee;
+  -webkit-box-shadow: 0 0 5px #eee;
+  box-shadow: 0 0 5px #eee;
+  position: relative;
+}
+
+.model-default-image-thumb {
+  height: 101px;
+  width: 135px;
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.model-default-image-thumb img {
+  max-height: 101px;
+  max-width: 135px;
+}
+
+.result-item-data {
+  width: 428px;
+  float: left;
+}
+
+.product-details {
+  width: 482px;
+  float:left;
+}
+
+.grid-view .product-details {
+  width: 135px;
+  height: 110px;
+  overflow: hidden;
+}
+
+.result-item-data .model-title {
+  font: normal bold normal 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.result-item-price-and-rating {
+  margin-top: 5px;
+  padding-top: 15px;
+  width: 482px;
+  border-top: 1px dotted #ccc;
+}
+
+.model-price-range {
+  width: 300px;
+  float: left;
+}
+
+.model-description {
+  margin: 10px 0;
+}
+
+.model-rating {
+  width: 70px;
+  float: right;
+}
+
+.search-results-refine {
+  float: right;
+  width: 200px;
+}
+
+.search-results-forum-callout {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 10px;
+  margin: 40px 0 0 0;
+}
+
+.search-results-refine li.selected {
+  font-weight: bold;
+}
+
+.facet-category, .facet-material, .facet-customizable, .facet-price, .facet-downloadable {
+  list-style: none;
+  margin: 20px 0 0 20px;
+  width: 214px;
+}
+
+.facet-category-child {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.facet-downloadable {
+  margin: 0px 0 0 20px;
+}
+
+.facet-customizable {
+  margin: 0 0 20px 20px;
+}
+
+.facet-downloadable {
+  padding: 0 0 20px 0;
+}
+
+.facet-category li, .facet-material li, .facet-customizable li, .facet-downloadable li {
+  margin: 0;
+}
+
+.facet-category li a, .facet-material li a, .facet-category li a:visited,
+.facet-material li a:visited, .facet-customizable li a, .facet-downloadable li a,
+.shop-sections li a, .shop-sections li a:visited {
+  display: block;
+  padding: 7px 10px;
+  margin: 0;
+}
+
+
+.facet-category li a:hover, .facet-material li a:hover,
+.facet-downloadable li a:hover, .facet-customizable li a:hover,
+.shop-sections li a:hover {
+  text-decoration: none;
+  background: url(/web/20120615052945/http://static2.shapeways.netdna-cdn.com/rrstatic/img/portal/view-model/diag_patt_3px.png) top left;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.facet-category a.selected, .facet-material a.selected, .facet-customizable a.selected, .shop-sections li a.selected {
+  font-weight: bold;
+  color: #444;
+  background: url(/web/20120615052945/http://static2.shapeways.netdna-cdn.com/rrstatic/img/portal/view-model/diag_patt_3px.png) top left;
+}
+
+.pagination {
+  width: 640px;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #dddddd;
+  -moz-box-shadow: 0 0 5px #eee;
+  -webkit-box-shadow: 0 0 5px #eee;
+  box-shadow: 0 0 5px #eee;
+  position: relative;
+  background: url(/web/20120615052945/http://static2.shapeways.netdna-cdn.com/rrstatic/img/portal/view-model/diag_patt_3px.png) top left #fff;
+}
+
+.my-models .pagination,
+.shop-inventory .pagination {
+  width: 918px;
+}
+
+/* SEARCH SUGGESTION RESULT *****/
+.search-exact-result, .no-results-content {
+  width: 680px;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #dddddd;
+  -moz-box-shadow: 0 0 5px #eee;
+  -webkit-box-shadow: 0 0 5px #eee;
+  box-shadow: 0 0 5px #eee;
+  margin: 0 0 20px 0;
+}
+
+.search-exact-result .left-graphic-margin, .no-results-content .left-graphic-margin {
+  float: left;
+  width: 20px;
+  background: url(/web/20120615052945/http://static2.shapeways.netdna-cdn.com/rrstatic/img/portal/view-model/diag_patt_3px.png) top left #fff;
+  height: 93px;
+  margin-right: 20px;
+}
+
+.search-exact-result-title {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search-exact-result-description {
+  padding: 0;
+  margin-top: 5px;
+  color: #777777;
+}
+
+
+.results-page.enabled {
+  background: #fff;
+  cursor:pointer;
+}
+
+.results-page.enabled:hover {
+  border: 1px solid #74c2e8;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  text-decoration: none;
+}
+
+
+.results-page {
+  padding: 10px 15px;
+  margin: 0 2px;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+.results-page.selected {
+  font-weight: bold;
+  background: #fff;
+  color: #aaa;
+  cursor:default;
+}
+.results-page.disabled {
+  color: #ddd;
+  cursor:default;
+}
+
+
+/* facet ui */
+.js #priceRangeFacetSpan {
+  display: none;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+  background: #ffde96 ;
+}
+.no-js #priceRangeFacetSlider {
+  display: none;
+}
+
+.price-range-slider {
+  width: 200px;
+  padding-top: 10px;
+  margin: 5px auto 30px auto;
+  height: 11px;
+  background: url('/web/20120615052945/http://static2.shapeways.netdna-cdn.com/rrstatic/styles/portal/search/images/priceSliderMarkers.png') center top no-repeat;
+}
+
+.facets-header {
+  margin: 0 !important;
+  display: block;
+  width: 214px;
+  padding: 20px;
+  background: url(/web/20120615052945/http://static2.shapeways.netdna-cdn.com/rrstatic/img/portal/view-model/diag_patt_3px.png) top left;
+}
+
+/* sort options */
+.js #sortOptionsSubmit {
+  display: none;
+}
+
+/* /SEARCH */
+
+/* GALLERY */
+
+/* gallery category page */
+
+.gallery-category-container {
+  width: 680px;
+}
+
+.gallery-category-items {
+  margin: 10px 0;
+}
+
+.gallery-category-header, .gallery-results-container {
+  margin: 20px 0 0 0;
+}
+
+.gallery-category-container .result-item, .gallery-results-container .result-item{
+  padding: 20px;
+  margin: 0 23px;
+  position: relative;
+  width: 137px;
+  height: 240px;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #dddddd;
+  -moz-box-shadow: 0 0 5px #eee;
+  -webkit-box-shadow: 0 0 5px #eee;
+  box-shadow: 0 0 5px #eee;
+  float: left;
+  display: inline;
+  color: #444;
+}
+
+.gallery-category-container .model-default-image-thumb {
+  height: 101px;
+  width: 135px;
+  margin-bottom: 10px;
+}
+
+.gallery-category-container .model-default-image-thumb img {
+  max-height: 120px;
+  max-width: 162px;
+}
+
+.gallery-category-container .result-item-price-and-rating {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px dotted #ddd;
+}
+
+.gallery-category-container .model-price-range {
+  margin-right: 80px;
+}
+
+.gallery-category-container .model-rating {
+  width: 80px;
+  float: right;
+}
+
+.gallery-category-container .see-more {
+  text-align: right;
+  margin: 10px 30px 20px 0;
+}
+
+/* /gallery category page */
+
+/* gallery results page */
+
+.gallery-results-items-grid .result-item {
+  width: 230px;
+  overflow: hidden;
+  margin: 10px;
+  float: left;
+}
+
+.gallery-results-items-grid .model-default-image-thumb {
+  height: 120px;
+  width: 162px;
+  margin-bottom: 10px;
+}
+
+.gallery-results-items-grid .model-default-image-thumb img {
+  max-height: 120px;
+  max-width: 162px;
+}
+
+.gallery-results-items-grid .model-title {
+  height: 40px;
+  overflow: hidden;
+}
+
+.gallery-results-items-grid .result-item-price-and-rating {
+  margin-top: 5px;
+  padding-top: 5px;
+  height: 20px;
+  border-top: 1px dotted #ddd;
+}
+
+.gallery-results-items-grid .model-rating {
+  width: 80px;
+  float: right;
+}
+
+.gallery-results-items-grid .model-price-range {
+  margin-right: 100px;
+}
+
+.gallery-results-items-list .result-item {
+  margin: 10px 0;
+}
+
+.gallery-results-items-list .model-default-image-thumb {
+  height: 120px;
+  width: 162px;
+  float: left;
+  margin-right: 10px;
+}
+
+.gallery-results-items-list .model-default-image-thumb img {
+  max-height: 120px;
+  max-width: 162px;
+}
+
+.gallery-results-items-list .result-item-data {
+  width: 560px;
+  float: left;
+}
+
+.grid-view .product-box, .grid-view .shop-box a, .grid-view .shop-box a:visited {
+  padding: 20px;
+  margin: 0 23px;
+  position: relative;
+  width: 137px;
+  height: 240px;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #dddddd;
+  -moz-box-shadow: 0 0 5px #eee;
+  -webkit-box-shadow: 0 0 5px #eee;
+  box-shadow: 0 0 5px #eee;
+  float: left;
+  display: inline;
+  color: #444;
+}
+
+.grid-view .product-box.hover, .grid-view .product-box:hover, .grid-view .product-box:active, .grid-view .shop-box a:hover, .grid-view .shop-box a:active {
+  border: 1px solid #74c2e8;
+  text-decoration: none;
+  color: #444;
+  -moz-box-shadow: 0 0 5px #3ab8f0;
+  -webkit-box-shadow: 0 0 5px #3ab8f0;
+  box-shadow: 0 0 5px #3ab8f0;
+}
+
+.grid-view .product-box.hover {
+  cursor: pointer;
+}
+
+.grid-view .product-img, .grid-view .shop-img {
+  width: 135px;
+  height: 101px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  background: #f4f4f4;
+}
+
+.grid-view .product-name, .grid-view .shop-name{
+  display: block;
+  width: 135px;
+  padding: 8px 0 0 0;
+  overflow: hidden;
+  font: normal bold normal 13px/15px "Helvetica Neue", Helvetica, Arial, san-serif;
+  font-weight: bold; /* For IE */
+}
+
+.grid-view .product-name a, .grid-view .shop-name a,
+.grid-view .product-name a:hover, .grid-view .shop-name a:hover {
+  line-height: 13px;
+  font-weight: bold; /* For IE */
+}
+
+.grid-view .designer {
+  font-size: .9em;
+  width: 135px;
+  overflow: hidden;
+  margin: 3px 0;
+  color: #777;
+}
+
+.grid-view .shop-description {
+  margin: 5px 0 0 0;
+  width: 135px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.grid-view .product-description {
+  display: none;
+}
+
+
+.grid-view .price {
+}
+
+.grid-view .price-spacer {
+  color: #999;
+}
+
+.product-box .price .rating {
+  float: right;
+  margin: 1px 0 0 0;
+  width: 70px;
+}
+
+.grid-view .product-box .rating {
+  float: left;
+}
+
+.gallery-results-items-list .result-item-description {
+  height: 90px;
+  overflow: hidden;
+}
+
+.gallery-results-items-list .result-item-price-and-rating {
+  margin-top: 5px;
+  padding-top: 5px;
+  height: 20px;
+  border-top: 1px dotted #ddd;
+}
+
+.gallery-results-items-list .model-price-range {
+  width: 300px;
+  float: left;
+}
+
+.gallery-results-items-list .model-rating {
+  width: 100px;
+  float: right;
+}
+
+.results-header h1, .results-header h2 {
+  float: left;
+  width: 510px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+.grid-view .results-header h1, .grid-view .results-header h2 {
+  float: left;
+  width: 480px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.results-header select {
+  width: 132px;
+}
+
+.my-models .results-header h1 {
+  width: 120px;
+  padding: 4px 0 0 0;
+}
+
+.gallery-results-header .results-sort {
+  float: right;
+  width: 200px;
+}
+
+.gallery-view-options {
+   color: #aaa;
+   display: block;
+   margin: 8px 0 0 0;
+   padding: 0;
+   text-align: left;
+   width: 254px;
+   float: left;
+ }
+
+.grid-view .gallery-view-options {
+  color: #aaa;
+  display: block;
+  margin: 8px 0 0 28px;
+  padding: 0;
+  text-align: left;
+  width: 254px;
+  float: left;
+}
+
+.my-models .gallery-view-options {
+  color: #aaa;
+  display: block;
+  margin: 2px 0 0;
+  padding: 0;
+  text-align: right;
+  width: 185px;
+  float: left;
+}
+
+.gallery-view-options .selected {
+  font-weight: bold;
+}
+
+.gallery-view-options a, .gallery-view-options a:visited {
+  color: #ccc;
+}
+
+.gallery-view-options a:hover {
+  color: #3da9de;
+  cursor: pointer;
+}
+
+/* /gallery results page */
+
+
+/* gallery results on cms pages */
+
+.sct-home .gallery-results-items-grid .result-item {
+  width: 200px;
+  overflow: hidden;
+  margin: 10px;
+  float: left;
+}
+
+/* /gallery results on cms pages */
+
+
+.gallery-facets {
+  float: right;
+  width: 200px;
+}
+
+/* /GALLERY */
+
+.shop-logo {
+  width: 190px;height: 140px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 20px 0 0;
+  padding: 0;
+}

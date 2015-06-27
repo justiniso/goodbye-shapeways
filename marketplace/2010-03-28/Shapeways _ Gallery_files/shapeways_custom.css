@@ -1,0 +1,1529 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 22:15:33 Dec 5, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 2:03:16 Jun 27, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* ################################################### */
+/* # version:   Shapeways custom stylesheet 1.0      # */
+/* # dated:     december 2009                        # */
+/* # author:    A. van der Velden | shapeways.com    # */
+/* # e-mail:    arnoud@shapeways.com                 # */
+/* # website:   http://www.shapeways.com             # */
+/* ################################################### */
+
+
+body
+{
+background-image:url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/christmas_bg.gif); background-repeat:repeat-x;
+}
+
+
+
+.modeldetailinfoshoplogo { max-width:220px; }
+
+
+
+.highslide img {
+border:0px !important;
+}
+
+/*************** LOGIN LIGHTBOX  ***********************/
+
+.toplinks  /* Signin Login Contact Box Addition */
+{
+	width: 414px !important;
+	padding: 8px 0px 0 0 !important;
+	z-index: 102 !important;
+}
+
+
+#topnav {
+	padding:1px 10px 12px;
+	font-size:12px;
+	line-height:23px;
+	text-align:right;
+}
+
+#topnav a.login_active {
+	border-left:#D9E7F5 solid 3px;
+	border-right:#D9E7F5 solid 3px;
+	border-top:#D9E7F5 solid 3px;
+	border-bottom:none;
+    border-collapse: collapse;
+	margin:-3px;
+    border-spacing: 0;
+    background:#fff;
+    text-decoration:none;
+    color:#c90062;
+	z-index:103;
+	position:relative;
+}
+
+.login_normal {padding:4px 10px 4px 10px;}
+
+#udLoginPanel a.login_bg {
+    position:relative;
+	color:#FFC1DF;
+}
+
+#login_menu {
+	border:3px solid #D9E7F5;
+    background-color:#ffffff;
+    position:absolute;
+    width:214px;
+    z-index:100;
+    text-align:left;
+    padding:20px;
+	left:102px;
+    top: 29px; 
+    color:#545454;
+    font-size:12px;
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3)a;
+	
+}
+
+#login_menu input[type=text], #login_menu input[type=password] {
+    display:block;
+    border:1px solid #BEC1C8;
+    font-size:12px;
+    margin:0 0 7px;
+    padding:4px;
+    width:200px;
+}
+
+/* ######## FORUM SIGNATURE  ############## */
+
+hr.sig {
+background-color:black;
+border:0 none;
+color:black;
+height:1px;
+margin-top:25px;
+margin-bottom:25px;
+padding:0;
+text-align:left;
+width:175px;
+}
+
+
+/* ######## FORUM TABLE FIX  ############## */
+
+.MsgTable {table-layout:fixed;}
+
+
+
+/* ######## CHECKOUT PAGE  ############## */
+
+.checkout_error
+
+{background-color:#FFEAEA; 
+padding:10px; 
+margin:10px 0px 10px;
+}
+
+.CheckoutIcon
+{
+padding:0px; position:relative; top:5px; padding-right:10px;
+}
+
+
+td.shipping1
+{
+width:160px; padding:3px 13px 3px 13px;
+}
+
+td.shipping2
+{
+width:310px; padding:3px 13px 3px 13px;
+}
+
+
+td.order_options_cell1
+{
+width:310px; padding:3px 13px 3px 13px;
+}
+
+.CheckoutTitle
+{
+background-color:#F5F9FC; 
+font-size:12px; 
+font-weight:bold; 
+color:#0098db; 
+padding:2px 0px 8px 10px; 
+border-bottom:1px solid #D9E6F4;
+}
+
+
+table.order_options
+{
+margin-bottom:15px;
+width:630px;
+border-bottom:1px solid #D9E6F4;
+}
+
+
+.checkout_change
+{
+background-color:#F5F9FC; 
+font-size:12px; 
+color:#0098db; 
+padding:8px 15px 8px 10px; 
+border-bottom:1px solid #D9E6F4;
+}
+
+.paymentContainer td
+{
+width:33%;
+}
+
+table.shoppingcart td.title_white 
+{
+font-weight:bold; 
+padding-left:15px;
+padding-bottom:10px;
+} 
+
+
+td.cell1_white
+{
+width:330px;
+vertical-align:top;
+background-color:#ffffff;
+padding:13px;
+}
+
+td.cell2_white
+{
+text-align:center;
+width:42px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#ffffff;
+padding:13px;
+}
+
+td.cell3_white
+{
+width:172px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#ffffff;
+padding:13px;
+}
+
+td.cell4_white
+{
+text-align:right;
+width:60px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#ffffff;
+padding:13px 10px 13px 0px;
+}
+
+td.cell2_white select
+{
+border:none;
+min-width:25px !important;
+}
+
+
+/* ######## LOGIN ORDER PROCESS  ############## */ 
+
+.rmCheck
+{   
+width:365px; padding:7px;
+}
+
+
+.order_radio
+{
+vertical-align: middle;
+margin-right:6px;
+margin-bottom:2px;
+}
+
+
+
+
+/* ######## MATERIALS LIGHTBOX  ############## */
+
+
+.material_info_tab_body img{width:99%;}
+
+.mat_lightbox {
+	width:660px;
+	height:auto;
+	border:dotted 1px #000;
+	background-color:#FFF;
+}
+
+.mat_lightbox_tabs {
+	background-color:#EDF2F9;
+	border-top:1px solid #D9E6F4;
+}
+
+.mat_lightbox_left {
+	vertical-align:top;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-right:30px;
+}
+
+.mat_lightbox_right {
+	vertical-align:top;
+	padding-top:10px;
+	padding-bottom:20px;
+	text-align:right;
+}
+
+.mat_lightbox_bottomleft {
+	text-align:left;
+	padding:0px;
+}
+.mat_lightbox_bottomright {
+	text-align:right;
+	padding:0px;
+}
+.mat_lightbox_titleleft {
+	padding:10px 0px 5px 0px;
+	text-align:left;
+}
+.mat_lightbox_titleright {
+	padding:10px 0px 5px 0px;
+	text-align:right;
+}
+
+
+/* ######## GALLERY SEARCH FILTER  ############## */
+
+.gallerynavnext_inactive
+{
+display: inline-block;
+vertical-align: middle;
+width: 19px;
+height: 19px;
+margin: 0 0 0 5px;
+background: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/bt_navigation_inactive.png) -60px;
+}
+
+
+.FilterReset
+{
+position:relative; 
+top:-8px; 
+left:-10px;}
+
+.galleryviewselectorbutton_filter  {
+position:static;
+margin-bottom:8px;
+top:2px;
+left:592px;
+}
+
+#udFilterFoldOut
+{
+border-top:1px solid #D9E7F5;
+padding:0px;
+}
+
+.FilterOpt
+{
+height:auto;
+position:relative;
+margin:0; 
+padding-left:12px; 
+padding-top:10px;  
+width:113px;
+margin-bottom:25px;
+display:block;
+float:left;
+background-repeat:repeat-x;
+background-image:url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/tab_bg.jpg)
+}
+
+.FilterActive {
+height:135px;
+border-right:1px solid #fff;
+margin:0 0 25px 0; 
+padding-left:12px; 
+padding-top:10px;  
+background-image: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/tab_bg_selected.jpg);
+background-repeat:repeat-x;
+
+}
+
+.FilterOpt li
+{
+line-height:170%;
+list-style-image:none;
+list-style:none;
+margin-left:0px;
+}
+
+
+ol li
+{
+line-height:170%;
+list-style-image:none;
+list-style:inherit;
+
+}
+
+.FilterOpt a
+{ 
+margin-right:4px;
+}
+
+
+
+#border_orange
+{
+padding:5px;
+color:#0098db;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #F99F20;
+}
+
+.filterPers
+{
+vertical-align: middle;
+margin-right:6px;
+margin-bottom:2px;
+}
+
+
+#udFilter
+{
+width: 100%;
+height:25px;
+}
+
+
+
+
+/* ######## SHIPPING ADDRESS PAGE ORDER PROCESS  ############## */ 
+
+.shipping_error
+
+{background-color:#FFEAEA; 
+padding:10px; 
+margin:10px 0px 10px;
+}
+
+.ups_migration_block
+{background-color:#FFEAEA; 
+padding:10px; 
+margin:10px 0px 10px;
+}
+
+.existing_address_edit 
+{
+background-color:#EDF3FA; 
+padding:3px 10px 10px 0px;
+}
+
+
+#existing_address1 
+{
+padding:5px 0px 15px 10px;
+}
+
+#existing_address2
+{
+padding:5px 0px 15px 10px;
+}
+
+.OrderTitle
+{
+background-color:#F5F9FC; 
+font-size:12px; 
+font-weight:bold; 
+color:#0098db; 
+padding:8px 0px 8px 10px; 
+border-bottom:1px solid #D9E6F4;
+}
+
+.Steps
+{
+width:870px; 
+padding:10px 10px 10px 0px; 
+height:auto; 
+margin-bottom:5px;
+}
+
+#Block50              /* 50-50 blokken  */ 
+{
+width:425px; height:auto; float:left;
+}
+
+.leftBlock            /* linkerblok met 10px marge  */ 
+{
+margin-right:20px;
+}     
+
+#udHeaderClear 
+{
+position: relative;
+width: 948px;
+height: 118px;
+background: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/header_clear.gif) no-repeat left top;
+}
+
+.field50_label
+{   
+font-weight:bold;
+width:160px; padding:10px;
+}
+
+.field50_input
+{   
+width:365px; padding:7px;
+}
+
+.field50_input #country
+{   
+width:200px;
+}
+
+
+
+.field50_input input
+{   
+width:100%;
+}
+
+
+/* ######## SHOPPING CART  ############## */
+
+/* ######## COUNTRY DROPDOWN  ############## */
+   .countrydropdown dd, .countrydropdown dt, .countrydropdown ul { margin:0px; padding:0px; }
+        .countrydropdown dd { position:relative; }
+        .countrydropdown a, .countrydropdown a:visited { color:#545454; text-decoration:none; outline:none;}
+        .countrydropdown a:hover { color:#545454;}
+        .countrydropdown dt a:hover { color:#545454; border: 1px solid #BDC0C8;}
+                .countrydropdown dt img { padding-left:5px;}
+
+        .countrydropdown dt a {background:#fff url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/country_arrow_down.png) no-repeat scroll right center; display:block; padding-right:20px; border:1px solid #CCC; width:100%;}
+        .countrydropdown dt a  {cursor:pointer; display:block; padding:3px 0px 3px 0px;}
+        .countrydropdown dd ul { background:#f3f3f3 none repeat scroll 0 0; border:1px solid #BDC0C8; color:#C5C0B0; left:0px; padding:5px 0px; position:absolute; top:2px; width:100%; list-style:none;}
+        .countrydropdown span.value { display:none;}
+        .countrydropdown dd ul li a { padding:5px; display:block;}
+        .countrydropdown dd ul li a:hover { background-color:#ffffff;}
+        .countrydropdown img.flag { border:none; vertical-align:middle; margin-right:10px; margin-top:-2px; }
+        
+
+td.PersOptions
+{
+font-size:12px;
+vertical-align:top;
+background-color:#fff;
+border-left:#D9E6F4 1px solid;
+border-right:#D9E6F4 1px solid;
+
+padding:2px 0px 2px 15px;
+
+}
+
+#PersOptions_FoldOut
+{
+padding:14px;
+height:auto;
+width:600px;
+position:relative;
+margin-top:-15px; 
+margin-bottom:14px; 
+display:block;
+float:left;
+background-repeat:repeat-x;
+background-image:url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/tab_bg.jpg);
+border-bottom:1px solid #D9E6F4;
+border-left:#D9E6F4 1px solid;
+border-right:#D9E6F4 1px solid;
+}
+
+
+#PersOptions_FoldOut img
+{
+width:50px;
+}
+
+.CartChecked
+{
+line-height:170%;
+list-style-image: url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/check.png")
+}
+
+.ContinueShopping
+{
+list-style-image: url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/arrow_back_blue.png")
+}
+
+.cart_country
+{
+margin:10px 0 10px 0px;
+display:block;
+}
+
+.cart_country img
+{
+margin-right:10px;
+}
+
+table.shoppingcart 
+{
+margin-bottom:15px;
+width:630px;
+border-bottom:1px solid #D9E6F4;
+}
+
+
+
+td.cell1
+{
+width:330px;
+vertical-align:top;
+background-color:#F5F9FC;
+padding:13px;
+}
+
+td.cell2
+{
+text-align:center;
+width:42px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#F5F9FC;
+padding:13px;
+}
+
+td.cell3
+{
+width:172px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#F2F6FB;
+padding:13px;
+}
+
+td.cell4
+{
+text-align:right;
+width:60px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#F2F6FB;
+padding:13px 10px 13px 0px;
+}
+
+td.cell5
+{
+text-align:center;
+width:26px;
+border-left:1px solid #fff;
+vertical-align:top;
+background-color:#F5F9FC;
+padding:13px 5px;
+}
+
+.cart_product
+{
+background-color:#fff;
+padding:4px;
+border:1px solid #B8BDC6;
+float:left;
+margin-right:10px;
+width:107px;
+}
+
+td.cell2 select
+{
+border:none;
+min-width:25px !important;
+}
+
+table.shoppingcart td.title 
+{
+padding-bottom:10px;
+font-weight:bold;
+} 
+
+
+
+
+
+.addSelector {
+width:140px;
+}
+
+
+
+/* ######## MATERIAL TABS MODEL DETAIL PAGE  ############## */
+
+.otherModels_mdp
+{
+float: right;
+height: 334px;
+margin: 0;
+width: 150px;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+.modelDetailTable .otherModels_mdp img
+{
+padding: 0;
+border: none;
+width: 100px;
+}
+
+.otherModels_mdp a.photoLink,
+.otherModels_mdp a.photoLinkwoMargin,
+.otherModels_mdp a.photoLink:visited,
+.otherModels_mdp a.photoLinkwoMargin:visited
+{
+display: block;
+padding: 5px;
+background: #FFFFFF;
+margin: 0 0 10px 0;
+border: 1px solid #dadfe5;
+}
+
+.otherModels_mdp .preview
+{
+height: auto !important;
+}
+
+
+.mdp_thumbs {
+height: auto !important;
+margin-bottom:13px; 
+display:block; 
+border:1px solid #DFE3E8; 
+padding:4px;
+}
+
+#mat_hover:hover {
+    cursor:pointer;
+    margin:-3px;
+    border: solid 3px #D9E7F5;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 10px 10px 5px #888;
+}
+
+  .mat_selectedIcon {
+        position:absolute;
+        left:132px;
+        top:5px;
+        width:25px;
+        height:25px;
+        background-image: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/selected.png);
+        background-repeat:no-repeat;
+  } 
+
+  .mat_infoIcon {
+        position:absolute;
+        left:5px;
+        top:5px;
+        width:25px;
+        height:25px;
+        background-image: url(/web/20101205221533/http://www.shapeways.com/img/shapeways/information.png);
+        background-repeat:no-repeat;
+  } 
+
+
+.mat_block {
+        position:relative;
+	padding:0px;
+	float: left; 
+	width:157px;
+	height:155px;
+	}
+	
+
+.selected {
+	background-color:#EDF2F9;
+	}
+
+
+
+.mat_block img {
+	border:3px solid #D9E7F5;
+	margin-bottom:15px;
+	margin-top:28px;
+	text-align:center;
+	float:none; 
+	display:block;
+	}
+	
+.selected img {
+	border:3px solid #BFD730;
+	}	
+
+.mat_text 
+{
+	display:block;
+    padding-left:18px;	
+}
+
+
+
+#navcontainer { width:632px; height:40px; }
+
+ul#tabnav {
+        margin: 0 !important;
+        padding: 0;
+        list-style-type: none;
+	list-style-image:none;
+}
+
+ul#tabnav li {
+	border-collapse:collapse;
+        margin: 0 !important;
+	list-style-image:none;
+        float: left;
+        width:157px;
+	padding:11px 0 12px;
+        font-family: arial;
+        text-align:center;
+        font-size: 12px;
+        background-color: #EDF2F9;
+        border-top: 1px solid #D9E7F5;
+		border-right: 1px solid #D9E7F5;
+        border-bottom: 0px solid #D9E7F5;
+}
+
+ul#tabnav li:last-child {
+	border-collapse:collapse;
+		border-right:none;
+}
+
+#tabnav a, #tabnav a:link {
+        color: #0098db;
+        text-decoration: none;
+}
+
+ul#tabnav li#active  {
+	background-image:url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/tab_bg.jpg);
+	font-weight:bold;	
+        background-color: #fff;
+}
+
+ul#tabnav li#active  a{
+		color: #545454;	
+}
+
+#tabnav li:hover  {
+cursor:pointer;
+        color: #0098db;
+        background-color: #D9E7F5;
+}
+
+
+.modelDetailMaterial
+{
+border-bottom: 5px solid #d9e6f4;
+margin-bottom: 15px;
+}
+
+
+div.sharethis_mdp 
+{
+margin-top:5px;
+}
+
+div.sharethis_fav
+{
+margin-top:15px;
+}
+
+
+.modelDetailTable .description p,
+.modelDetailTable #cocreator-template-variables p
+{
+font-size: 1.0em;
+}
+
+.modelphoto_mdp{}
+
+.otherModels_mdp {
+float:right;
+height:334px;
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;
+background-color:#fff;
+width:135px;
+height:346px;
+}
+
+photoholderbody_mdp{}
+
+.#thumb_mdp
+{
+
+width: 482px;
+}
+
+
+::selection {
+	background: #0098db; color:#ffffff; /* Safari */
+	}
+::-moz-selection {
+	background: #0098db; color:#ffffff; /* Firefox */
+}
+
+
+#udSearchPanel {
+height:17px;
+padding-bottom:0;
+padding-left:0;
+padding-right:12px;
+padding-top:3px;
+position:absolute;
+right:15px;
+text-align:right;
+top:31px;
+width:110px;
+z-index:9;
+}
+
+.infobox_separator_mdp
+{
+border-bottom:2px solid #d9e6f4;
+margin: 15px 0 15px 0px;
+}
+
+.mdp_material{
+margin:5px 0px 5px 0px;
+}
+
+.priceamount_mdp { 
+font-size:1.3em;
+font-weight:bold;
+}
+
+.price_euro_mdp{
+font-size:1.3em;
+}
+
+.layoutPanel4{
+bottom-border:3px solid #000;
+padding-left:8px;
+padding-right:5px;
+padding-bottom:11px;
+margin-bottom: 20px;
+
+}
+
+.infobox_separator2 {height:2px; color:#00000;}
+
+.name{
+vertical-align:top; padding:10px 5px 10px 0px; border-top:1px solid #edf3fa; border-collapse:collapse;
+}
+
+#box-content-minor li{
+list-style-image:none;
+}
+
+#box-content li{
+list-style-image:none;
+}
+
+ul#categoryList li
+{
+list-style-image:none;
+}
+
+.galleryviewselectorbutton  {
+
+position:relative;
+margin-bottom:8px;
+top:2px;
+width:100%;
+text-align:right;
+}
+
+
+
+.pijltje {
+background-image:url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/small_arrow.gif");
+background-position:0 9px;
+background-repeat:no-repeat;
+line-height:25px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-left:2%;
+padding-left:15px;
+}
+
+
+/* ######## SEARCH RESULTS PAGE  ############## */
+
+.models img.searchpreview
+{
+margin-top:12px;
+}
+
+/* ######## SIGN UP PAGE  ############## */
+
+#usernametakenTable {
+left:655px;
+position:absolute;
+right:0;
+top:44px;
+width:214px;
+}
+
+#usernametakenTable h3 {
+color:#0098db;
+}
+
+
+/* ######## MYDESIGNS    ############## */
+
+.bannerPanel img {
+margin-top:5px;
+}
+
+
+
+/* ######## MODEL DETAIL PAGE    ############## */
+
+h1.modeldetailtitle {
+overflow:hidden;
+width:440px;
+}
+
+
+#sizeDisplay a:hover{text-decoration:underline;}
+
+.productInfo img {
+vertical-align:middle; padding:4px 0px 4px; margin-right:4px;
+}
+
+.productInfo a:hover{text-decoration:underline;}
+
+.productInfo ul{
+margin-left:0px !important;
+}
+
+.productInfo li{
+line-height:160%;
+list-style-image:none !important;
+list-style:none !important;
+}
+
+
+div.sharethis 
+{
+float:right;
+left:308px;
+padding-top:10px;
+position:absolute;
+}
+
+
+#divQuickOrder
+{
+
+width:240px;
+}
+
+.detailrating
+{
+padding-left:0px;
+}
+
+/* ######## FAVORITE GALLERY  ############## */
+
+.favorite_gallery
+{
+background-image: url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/thumb_shade.png");
+background-repeat:no-repeat;
+background-position:center bottom;
+color:#B6BFC3;
+height:178px;
+}
+
+.favorite_gallery img
+{
+border-bottom:5px #545454 solid;
+border-top:none;
+border-left:none;
+border-right:none;
+}
+
+.favorite_line
+{
+border-bottom:1px dotted #a3a3a3; 
+padding-bottom:5px;
+}
+ 
+.favorite_designer
+{
+background-image:url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/designer_off.png");
+background-repeat:none;
+
+}
+
+#photoDescription {
+width:300px;
+}
+
+
+/* ######## SEARCH BARS  ############## */
+
+#udSearch
+{
+position:static;
+width: 588px;
+background-color: #EDF2F9;
+border:solid 1px #D9E7F5;
+margin:1px 0px 14px 0px; 
+padding:10px 20px 26px 20px; 
+height:25px;
+}
+
+#udSearch .searchbox
+{
+  width: 232px;
+}
+
+#udSearch .categoryselect
+{
+  width: 120px;
+}
+
+
+input {
+    outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+color:#545454;
+   }
+
+input:focus {
+  box-shadow: 0 0 5px rgba(191, 215, 48, 1);
+    -webkit-box-shadow: 0 0 5px rgba(191, 215, 48, 1); 
+    -moz-box-shadow: 0 0 5px rgba(191, 215, 48, 1);
+    border:1px solid rgba(191, 215, 48, 1); 
+}
+
+
+/* ABOUT BUTTONS*/
+/* ################################################### */
+
+.aboutbtTitle h2
+{
+border-bottom:1px #D9E7F5 solid;
+text-shadow:#D9E6F4 1px 1px 1px;
+position: absolute;
+top:-52px;
+width:220px;
+color:#0098db;
+font-size: 24px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0;
+margin-top:0;
+padding-bottom:10px;
+padding-left:0x;
+padding-top:6px;
+}
+
+.aboutbt 
+{
+height:21px;
+margin: 0px 0px 2px 0px;
+padding:8px 5px 8px 10px;
+display:block;
+background-color:#f8f8f8;
+text-decoration:none;
+font-size:14px;
+}
+
+.aboutbt:hover{
+background-position:center;
+text-shadow:#FFF 0px 0px 10px;
+background-image:url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/button_hover.gif);
+background-repeat:repeat-x;
+text-decoration:none;
+}
+
+
+.aboutoranje:hover{color:#f99f20;}
+.aboutturq:hover{color:#00b3b5;}
+.aboutgreen:hover{color:#bfd730;}
+.aboutblauw:hover{color:#005bbb;}
+
+.aboutbt:visited {text-decoration: none;}
+
+
+
+#photoDescription {
+padding-left:0px;
+}
+
+
+/* CO-CREATOR TITLE ICON */
+/* ################################################### */
+
+.modelDetailTable #titleIcon.cocreator-template {
+-moz-background-clip:border;
+-moz-background-origin:padding;
+-moz-background-size:auto auto;
+background-attachment:scroll;
+background-color:transparent;
+background-image:url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/wrenchkey.png");
+background-position:left center;
+background-repeat:no-repeat;
+float:left;
+height:46px;
+vertical-align:top;
+margin-right:10px;
+width:30px;
+}
+
+/* BALLOONS */
+/* ################################################### */
+
+.alphacube_content div.rating {
+font-size:10pt;
+padding-bottom:15px;
+padding-left:5px;
+}
+
+/* SORTING BAR */
+/* ################################################### */
+
+.models .results td {padding:8px 8px 8px 5px;}
+
+/* TITLES */
+/* ################################################### */
+
+h2, h4 {color:#0098db; font-size:1.4em; padding-bottom:15px;}
+
+/* MODEL TITLES */
+/* ################################################### */
+
+.pluginTable a.title, .pluginTable a.title:visited  {
+color:#0098DB;
+font-weight:normal;
+text-decoration:none;
+}
+
+.pluginTable a.title:hover 
+{
+color:#0098DB;
+font-weight:normal;
+text-decoration:underline;
+}
+
+
+
+/* LIGHTBLUE BOX */
+/* ################################################### */
+
+
+.layoutPanel1,
+.layoutPanel2,
+.layoutLightBlue
+{
+border:solid 1px #D9E7F5;
+padding-left:8px;
+padding-right:5px;
+padding-bottom:11px;
+margin-bottom: 20px;
+}
+
+.layoutPanel1 h2,
+.layoutPanel2 h2,
+.layoutLightBlue h2
+{
+background-color:#EDF2F9;
+
+border-bottom:#D9E7F5 3px solid;
+color:#404040;
+font-size: 1.0em;
+font-weight:bold;
+margin-bottom:10px;
+margin-left:-8px;
+margin-right:-5px;
+margin-top:0px;
+padding-bottom:5px;
+padding-left:8px;
+padding-top:6px;
+}
+
+.layoutLightBlue a,
+.layoutLightBlue a:visited
+{
+  color: #0098db;
+}
+
+
+
+
+/* FOOTER */
+/* ################################################### */
+
+.footertop {
+height:20px;
+border-top:none;
+margin-left:17px;
+margin-right:17px;}
+
+.footer {
+border-top-color:#D9E7F5;
+border-top-style:solid;
+border-top-width:5px;
+color:#252F47;
+font-size:12px !important;
+margin-bottom:0;
+margin-left:17px;
+margin-right:17px;
+margin-top:0;
+padding-bottom:17px;
+padding-left:0;
+padding-right:0;
+padding-top:10px;
+text-align:center;
+}
+
+.footer a
+{
+  text-decoration: none !important;
+  color: #0098db !important;
+}
+
+.footer a:visited
+{
+  text-decoration: none !important;
+  color: #0098db !important;
+}
+
+.footer a:hover
+{
+  text-decoration: underline !important;
+  color: #0098db !important;
+}
+
+
+
+
+
+
+
+/* ORDER PROCESS */
+/* ################################################### */
+
+.cartTable label.grey {color:#545454;}
+.cartTable td.vat {color:#545454;}
+.shopcontentDiv4 h3 {padding-left:0px;}
+.blue{background: #f6f9fc; }
+.cartTable td {background-color:#f6f9fc;}
+
+
+h1 {
+
+text-shadow:#D9E6F4 1px 1px 1px;
+}
+
+
+/* BORDERS */
+/* ################################################### */
+
+.layoutDefaultBorder .content {
+border-bottom-color:#D9E6F4;
+border-bottom-style:solid;
+border-bottom-width:5px;
+padding-bottom:20px;
+padding-left:0;
+padding-right:0;
+padding-top:0;
+}
+
+/* LINKS */
+/* ################################################### */
+
+
+
+a,
+a:visited
+{
+  color: #0098db;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active
+{
+  text-decoration: underline;
+}
+
+.udLeft75_homepage
+{
+  position: relative;
+  width: 220px;
+  float: left;
+  padding: 0;
+}
+
+.udRight25_homepage
+{
+  width: 630px;
+  float: right;
+  margin: 0 0 10px 0;
+  padding: 0; /* Geen margin gebruiken, gaat fout in IE 6 */
+}
+
+
+/* LIGHT BOX */
+/* ################################################### */
+
+
+.layoutLight
+{
+  background: #f2f2f2;
+  background-image: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/index/block_bg.gif);
+  background-repeat:repeat-y;
+  padding: 5px 10px 0px 10px;
+  margin-bottom: 20px;
+  color: #6a6c71;
+  border-top:solid 5px #d9e7f5;
+}
+
+.layoutLight h2
+{
+  color: #0098db;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
+.layoutLight a,
+.layoutLight a:visited
+{
+  color: #0098db;
+}
+
+
+
+/* HTML */
+/* ################################################### */
+
+html{
+overflow-y:scroll;
+overflow-x:hidden
+}
+
+
+li {
+list-style-image:url("/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/small_arrow.gif");
+}
+
+
+body 
+{
+color:#545454;
+}
+
+
+
+/* Featured models homepage*/
+/* ################################################### */
+
+.printedmodelslinks
+{
+  display: block;
+  float: right;
+  margin: -26px 0px 0 0;
+  cursor: pointer;
+}
+
+.bestnewlinks
+{
+  display: block;
+  float: right;
+  margin: -26px 0px 0 0;
+  cursor: pointer;
+}
+
+.highslide img {color:#fff;}
+.highslide img:hover {color:#D9E7F5;}
+
+/* Materials pages*/
+/* ################################################### */
+
+/* Material pages styles, Bart Veldhuizen, bart@shapeways.com * Arnoud van der Velden, arnoud@shapeways.com/
+
+/* material selector */
+
+#materials-index{}
+.material-single{border:5px solid #e0edf6;background:#fff;width:200px;margin:0px 10px 11px 0px;float:left;}
+.material-single-last{margin:0px 0px 11px 0px;}
+div.material-info{height:17em;}
+div.material-image{text-align:center;}
+div.material-image img {border:0px;}
+.material-single h3{font-weight:bold;color:#0198DB;font-size:12px;margin-left:7px;text-shadow:#d2d2d2 1px 1px 1px; }
+.material-single p{margin-left:7px;}
+.material-pricing{border:0px dashed fuchsia;height:30px;margin:5px 0px 7px 7px;}
+.material-price-label{font-size:80%;float:left;width:54px;}
+.material-price{display:block;font-weight:bolder;color:black;float:left;width:54px;clear:left;}
+.material-pricing a{display:block;float:right;background:transparent url(/web/20101205221533/http://www.shapeways.com/topics/udesign/materials/index/button_more_2.gif) no-repeat scroll left top;width:130px;height:31px;margin-right:7px;}
+.material-pricing a span{display:none;}
+.material-clear{clear:both;}
+
+/* material detail pages */
+
+#material-summary{border:1px dotted #7fcdeb;margin: 0 0 15px 0;overflow:auto;width: 100%;}
+#material-summary img{float:right;margin:0px 10px 0px 20px;}
+#material-summary h2{font-weight:bold;color:#0098db;font-size:12px;margin:14px 0 0 14px; text-shadow:#d2d2d2 1px 1px 1px;}
+#material-summary span{font-weight:bold;color:#545454;margin:0 0 0 14px;}
+#material-summary p{margin:14px 0 14px 14px; }
+#material-summary hr{clear:both;visibility:hidden;}
+a#material-back {position:absolute;margin-top:-39px;right:0px;text-align:right;cursor: pointer;}
+
+
+
+/* FAQ QUESTIONS*/
+/* ################################################### */
+
+#faqQuestions .faqQuestion
+{
+  border-bottom: 1px solid #e5eef8;
+  padding: 8px 0 8px 0;
+}
+
+#faqQuestions .faqQuestion a, #faqQuestions .faqQuestion a:visited {
+padding-left:0px;
+}
+
+/* BUTTONS */
+/* ################################################### */
+
+a.btSearch3 { width: 85px; background: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/bt_search3.gif) no-repeat left top; }
+a.btSearch3:hover { width: 85px; background: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/bt_search3.gif) no-repeat -85px top; }
+a.btSearch3:focus, a.btSearch2:active { width: 85px; background: url(/web/20101205221533/http://www.shapeways.com/topics/udesign/files/images/bt_search3.gif) no-repeat -170px top; }
+a.btSearch3 span { display: none; }
