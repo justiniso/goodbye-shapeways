@@ -1,0 +1,837 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 22:19:29 Dec 5, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:54:37 Jun 27, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+
+text, .GenText 
+{
+	color: black;
+}
+
+.ForumBackground 
+{
+	background: #FFFFFF;
+	padding: 0;
+	margin: 0;
+}
+
+.forumTopborder
+{
+	/*border-top: 5px solid #d9e6f4;*/
+	font-size: 0.2em;
+}
+
+a, a:visited
+{
+	text-decoration: underline;
+	outline: none;
+}
+
+a:link, a:visited, a:active, a.PagerLink 
+{
+	text-decoration: underline;
+}
+
+a.CatLink 
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF !important;
+}
+
+.topBar
+{
+	width: 100%;
+	height: 20px;
+	text-align: right;
+	background: #d9e6f4;
+	border-bottom: 5px solid #FFFFFF;
+	display: none;
+}
+
+.topBar .left
+{
+	width: 100%;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+
+.topBar .right
+{
+	padding: 6px 20px 3px 30px;
+	white-space: nowrap;
+}
+
+.CatDesc 
+{
+	color: #FFFFFF;
+	height: 23px;
+	background: #0098db;
+	padding-left: 10px !important;
+}
+
+a.UserControlPanel, a.UserControlPanel:visited 
+{
+	color: #006699;
+	text-decoration: none;
+}
+
+div.UserControlPanel 
+{
+	margin-bottom: 15px;
+	text-align: right;
+	/*display: none;*/
+}
+
+.CatLockedName 
+{
+	font-weight: bold;
+}
+
+.CatLockPad 
+{
+	padding-left: 20px;
+}
+
+.GenText, .MsgIg, td.repI 
+{
+	color: #000000;
+}
+
+.GenTextRed, .ErrorText 
+{
+	color: red;
+}
+
+.ErrorText, td.rpasswdE 
+{
+	font-weight: bold;
+}
+
+.SmallText, .DateText, .TopBy, td.msgud, td.msgot, td.permYES, td.permNO 
+{
+	color: #000000;
+	font-size: 1em;
+}
+
+.MsgR1 .DateText
+{
+	font-weight: normal !important;
+	color: #FFFFFF !important;
+}
+
+th 
+{
+	font-size: 1em;
+	text-align: left;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 20px;
+	vertical-align: middle;
+	background: #7fcbed;
+}
+
+th.wa
+{
+	background: #7fcbed;
+	padding-left: 10px;
+}
+
+a.thLnk:link, a.thLnk:active, a.thLnk:visited 
+{
+	font-size: 10pt;
+	text-decoration: underline;
+	color: #EEEEEE;
+}
+
+a.thLnk:visited 
+{
+	color: #C2CDD6;
+}
+
+.RowStyleA, .RowStyleB, .RowStyleC, .RowStyleD, .RowStyleE, .RowStyleF
+{
+	border-bottom: 5px solid #d9e6f4;
+}
+
+.RowStyleA, td.tt 
+{
+	background: #FFFFFF;
+	padding: 0 10px 0 10px;
+}
+
+.RowStyleB
+{
+	font-weight: bold;
+	background: #edf3fa;
+}
+
+.RowStyleB .GenText,
+.RowStyleB .DateText
+{
+  padding-left : 5px; padding-right: 5px
+}
+
+.RowStyleC 
+{
+	background: #edf3fa;
+}
+
+.RowStyleD 
+{
+	background: #edf3fa;
+	font-weight: bold;
+	border-left: 4px solid #FFFFFF;
+}
+
+.RowStyleE 
+{
+	background: #edf3fa;
+	padding: 0 10px 0 10px;
+	border-left: 4px solid #FFFFFF;
+}
+
+.RowStyleF
+{
+	padding: 0 !important;
+	background: #edf3fa;
+	text-align: center;
+}
+
+.MsgToolBar 
+{
+	background: #FFFFFF;
+	padding: 10px 10px 0 10px;
+	border-bottom: 5px solid #d9e6f4;
+}
+
+.MsgSpacer 
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+
+.PollTable, .ContentTable, .MsgTable, .DialogTable, .PreviewTable, .AnnonTable 
+{
+	background : #FFFFFF;
+	border : 0px;
+	padding : 0px;
+	margin : 0px;
+}
+
+font.ptp 
+{ /* space between poll title & number of votes */
+	font-size: smaller;
+	padding-left: 10px;
+}
+
+.ContentTable, .AnnonTable, .MsgTable, table.pad 
+{
+	width : 100%;
+}
+
+.pad tr
+{
+	border-bottom: 5px solid #EEEEEE !important;
+}
+
+.MsgTable 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.MsgTable img
+{
+	max-width: 855px;
+}
+
+.DialogTable 
+{
+	width : 50%;
+}
+
+.PreviewTable 
+{
+	width: 75%;
+}
+
+.AnnText 
+{
+	color: #000000;
+	background: #f5d300;
+}
+
+.AnnSubjText 
+{
+	font-weight: bold;
+}
+
+.LevelText, div.ctags 
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.MsgSubText 
+{
+	font-weight: bold;
+}
+
+.MsgBodyText 
+{
+	font-size: 10pt;
+}
+
+.FormattingToolsBG 
+{
+	background: #000000;
+}
+
+.FormattingToolsCLR 
+{
+	background: #FFFFFF;
+}
+
+.MiniTable 
+{
+	background: #FFFFFF;
+	border : 0px;
+	padding : 0px;
+	margin : 0px;
+}
+
+.quote 
+{
+	color: #444444;
+	background: #FAFAFA;
+	border: 1px solid #c2cdd6;
+}
+
+.dashed 
+{
+	border: 1px dashed #1B7CAD;
+}
+
+.adminColor 
+{
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.modsColor 
+{
+	color: #00BB00;
+	font-weight: bold;
+}
+
+.brdrNormal, td.tabItop, td.tabImid, td.tabIbot 
+{
+	border: #000000;
+	border-style: solid;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	background-repeat: repeat;
+	background-position: top;
+}
+
+.brdrSelected, td.tabAmid, td.tabAmid, td.tabAbot 
+{
+	border: #000000;
+	border-style: solid;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	background-repeat: repeat;
+	background-position: top;
+}
+
+input.button 
+{
+  background: #EEEEEE;
+	color: #000000;
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #B4B2B4 #444444 #444444 #B4B2B4;
+}
+
+form 
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+img 
+{
+	border: 0px;
+}
+
+.StClr 
+{
+	font-weight: bold;
+	color: green;
+}
+
+.AnClr 
+{
+	font-weight: bold;
+	color: red;
+}
+
+.ModOpt 
+{
+	margin-top: 2px;
+	font-size: 10pt;
+	text-align: right;
+}
+
+.TopBy 
+{
+	margin-top: 3px;
+	margin-bottom: 0px;
+	padding-right: 2px;
+	text-align: right;
+}
+
+.MsgR2, .MsgR1, .MsgR3, .MsgIg 
+{
+	background: #dfebf7;
+	padding: 1px;
+}
+
+.MsgIg 
+{
+	border: 0px;
+}
+
+.MsgR2
+{
+	padding: 10px;
+	background: #edf3fa !important;
+	border-top: 5px solid #FFFFFF;
+}
+
+.MsgR1 
+{
+	background: #0098db;
+	padding-left: 10px !important;
+	color: #FFFFFF;
+}
+
+.MsgR1 a, .MsgR1 a:visited
+{
+	color: #FFFFFF !important;
+}
+
+.MsgR3 
+{
+	background: #FFFFFF;
+	padding: 1ex;
+	border-bottom: 5px solid #d9e6f4;
+        width: 860px;
+}
+
+.mnavMsg 
+{
+	border-bottom: 1px solid black;
+	width : 100%;
+}
+
+.mnavWarnTbl 
+{
+	border: 1px dashed red;
+}
+
+.manvNoRes 
+{
+	border: 1px dashed blue;
+}
+
+font.lg 
+{
+	font-size: 10pt;
+}
+
+td.tt 
+{
+	text-align: left;
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+
+table.tt 
+{
+	width: 100%;
+	padding: 1px;
+	margin: 0px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+a.big:link, a.big:active, a.big:visited 
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.small, a.small:link, a.small:active, a.small:visited 
+{
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+a.small:link, a.small:active, a.small:visited 
+{
+	color: #006699;
+}
+
+td.msgot, td.msgud 
+{
+	text-align: right;
+	vertical-align: top;
+	width: 33%;
+	white-space: nowrap;
+}
+
+td.msgud 
+{
+	padding-right: 10px;
+	text-align: left;
+	width: 33%;
+}
+
+div.ctags 
+{
+	overflow: auto;
+	white-space: nowrap;
+	margin: 0px;
+	padding: 2px;
+	width: 100%;
+	height: 36px;
+}
+
+.legend 
+{
+	background-color: #edf3fa;
+	padding: 5px;
+}
+
+th.SelTS, th.SelFS 
+{
+	padding: 2px;
+	color: #FFFFFF;
+}
+
+th.SelFS 
+{
+	 border-bottom: 1px solid white;
+	 color: #FFFFFF;
+}
+
+td.NoAvatar 
+{
+	background: #f4f4f4;
+	text-align: center;
+}
+
+td.Av1, td.Av2 
+{
+	text-align: center;
+	background: #f4f4f4;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+td.Av2 
+{
+	background: #fefefe;
+}
+
+td.tabI, td.tabA, td.tabI:hover, td.tabOVER, td.tabON 
+{
+	border: 1px solid black;
+	background: #dee7f7;
+  padding: 2px;
+}
+
+td.tabOVER, td.tabI:hover, td.tabI:active 
+{
+	background: white;
+}
+
+td.tabON 
+{
+	background: #5279bd;
+}
+
+a.tabON:link, a.tabON:active, a.tabON:visited, a.tabON:hover 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.tabT 
+{
+	padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.tab 
+{
+	border-bottom: 1px solid black;
+}
+
+.curtime 
+{
+  border: 1px solid black;
+	vertical-align: middle;
+	padding: 1px 3px 1px 3px;
+}
+
+td.rpasswdE 
+{
+	background: #ffffff;
+	text-align: center;
+}
+
+td.pmSn 
+{
+	background: #c90062;
+}
+
+td.pmSa 
+{
+	background: #fffa00;
+}
+
+td.pmSf 
+{
+	background: red;
+}
+
+table.pmDu 
+{
+	width: 175px;
+	background-color: #FFFFFF;
+}
+
+table.pmDu .RowStyleB,
+table.pmDu .RowStyleA
+{
+  border: none;
+}
+
+table.pmDu .RowStyleB
+{
+  background: url(/web/20101205221929/http://www.shapeways.com/forum/theme/default/images/pmDu.gif) no-repeat -8px top;
+}
+
+td.mvTc 
+{
+	background: #e5ffe7;
+}
+
+td.pmNav 
+{
+	background: white;
+	text-align: right;
+}
+
+td.miniMH
+{
+	text-align: center;
+}
+
+tr.mnavH 
+{
+	background: #eeeeee;
+}
+
+tr.mnavM 
+{
+	background: #dee2e6;
+}
+
+table.regConf 
+{
+	width: 80%;
+	border: 1px dashed #ff0000;
+}
+
+font.anon, font.reg 
+{
+	color: #00AA00;
+}
+
+td.permYES, td.permNO 
+{
+	text-align: center;
+	color: red;
+	white-space: nowrap;
+}
+
+td.permNO 
+{
+	color: blue;
+}
+
+font.regEW 
+{
+	font-size: xx-small;
+	color: #005500;
+	font-weight: bold;
+}
+
+td.repI 
+{
+	padding: 5px;
+	padding-left: 20px;
+}
+
+table.pad 
+{
+	/*margin-top: 2px;*/
+	margin-bottom: 2px;
+}
+
+font.selmsgInd 
+{
+	font-size: xx-small;
+	font-weight: bold;
+	text-decoration: none;
+}
+td.avatarPad 
+{
+	padding-right: 3px;
+	vertical-align: top;
+}
+
+div.pre 
+{
+	font-family: monospace;
+  padding: 5px;
+  border: 1px blue dashed;
+  font-size: 10pt;
+  white-space: pre;
+  background: #FAFAFA;
+	overflow: auto;
+	margin: 5px;
+}
+
+div.pre pre
+{
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+a.big:active, a.big:hover, a:active, a:hover, a.CatLink:active, a.CatLink:hover,
+a.UserControlPanel:active, a.UserControlPanel:hover, a.thLnk:active,
+a.thLnk:hover, a.small:active, a.small:hover, a.PagerLink:active, a.PagerLink:hover 
+{
+	color: #007EA7;
+}
+
+img.l 
+{
+	float: left;
+	clear: right;
+	margin: 3px;
+}
+
+img.r 
+{
+	float: right;
+	clear: left;
+	margin: 3px;
+}
+
+.AttachmentsList 
+{
+	margin-left: 0px;
+	list-style: none;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+hr.sig 
+{
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 175px;
+	border: 0px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.read
+{
+  padding-top: 10px !important;
+}
+
+/* The following are partial elements that are used to save space */
+
+
+
+.wo { width:		1px; }
+.wa { width:		100% !important; margin-bottom: 5px; }
+.al { text-align:	left; }
+.ar { text-align:	right; }
+.ac { text-align:	center; }
+.vb { vertical-align:	bottom; }
+.vt { vertical-align:	top; }
+.vm { vertical-align:	middle; }
+.nw { white-space: 	nowrap;}
+.fb { font-weight:	bold; }
+.space { padding: 0 10px 0 10px; }
+.msg { background: #7fcbed; padding-top: 6px; padding-bottom: 6px; }
+.tpc { background: #7fcbed; padding-top: 6px; padding-bottom: 6px; }
+.welcome { display: block; width: 100%; text-align: right;}
+
+
+img.at { float: left; clear: left; }
+
+div.sr { float: left; padding: 5px; }
+
+div.ctb {text-align: center;}
+div.ctb table {margin: 0 auto; text-align: left;}
+div.foot { padding: 3px; margin: 3px;}
+div.ip { overflow: auto; margin: 0px; padding: 2px; width: 600px; height: 400px; }
+span.vt { padding-left: 20px; }
+table.icqCP { font-family: arial, sans-serif; font-size: smaller; border: 0px; }
+div.pmL { padding-top: 2px; }
+table.ucPW { width: 175px; }
+
+.st0 { background-color: #ffff66; }
+.st1 { background-color: #A0FFFF; }
+.st2 { background-color: #99ff99; }
+.st3 { background-color: #ff9999; }
+.st4 { background-color: #ff66ff; }
+.st5 { background-color: #880000; }
+.st6 { background-color: #00aa00; }
+.st7 { background-color: #886800; }
+.st8 { background-color: #004699; }
+.st9 { background-color: #990099; }
+
+

@@ -1,0 +1,303 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 22:21:05 Dec 5, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:55:50 Jun 27, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.buttonnew {
+	border:1px solid #f3f3f3;
+    display: inline-block;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none !important;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: .4em 1.1em .45em;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, .2);
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    margin:5px 0px 10px 0px;
+}
+
+
+.buttonnew:hover {
+    text-decoration: none;
+}
+
+.buttonnew:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.medium {
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+	font-weight:bold;
+    font-size: 11px;
+    padding: .3em 1.0em .35em;
+}
+
+.smallgallery {
+-moz-border-radius-bottomleft:0.5em;
+-moz-border-radius-bottomright:0.5em;
+-moz-border-radius-topleft:0.5em;
+-moz-border-radius-topright:0.5em;
+font-size:9px;
+padding-bottom:0.5em;
+padding-left:1.0em;
+padding-right:1.0em;
+padding-top:0.5em;
+}
+
+
+.tip {
+    text-transform: lowercase;
+    font-size: 11px;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+}
+
+/* color styles
+---------------------------------------------- */
+
+/* green
+---------------------------------------------- */
+
+.green {
+
+    color: #ffffff !important;
+    background: #B6D64D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#B6D64D), to(#99C63E));
+    background: -moz-linear-gradient(top, #B6D64D, #99C63E);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#B6D64D', endColorstr = '#99C63E');
+}
+
+
+
+.green:hover {
+    color: #ffffff !important;
+    background: #99C63E;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b2d34a), to(#99C63E));
+    background: -moz-linear-gradient(top, #b2d34a, #B6D64D);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#b2d34a', endColorstr = '#B6D64D');
+}
+
+.green:active {
+    color: #ffffff !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#B6D64D), to(#99C63E));
+    background: -moz-linear-gradient(top, #B6D64D, #99C63E);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#B6D64D', endColorstr = '#99C63E');
+}
+
+.green:visited {
+    color: #ffffff !important;
+}
+
+/* gray
+---------------------------------------------- */
+
+.gray {
+	
+	/* fix voor medium gray buttons
+---------------------------------------------- */
+
+    font-size: 12px;
+    padding: .3em 1.1em .35em;
+/* --------------------------------------------- */
+	
+	margin-right:10px;
+    color: #0098db;
+    text-shadow: none;
+    background: #ffffff; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3))!important; 
+    background: -moz-linear-gradient(top, #ffffff, #f3f3f3)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f3f3f3')!important;
+}
+
+.gray:hover {
+    background: #fff!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#ffffff));
+    background: -moz-linear-gradient(top, #f3f3f3, #ffffff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f3f3f3', endColorstr = '#ffffff');
+}
+
+.gray:active {
+    color: #0098db;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3));
+    background: -moz-linear-gradient(top, #ffffff, #f3f3f3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f3f3f3');
+}
+
+/* blauw2
+---------------------------------------------- */
+
+.blauw2{
+    color: #ffffff;
+    background: #0098db;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0098db), to(#0C75C7));
+    background: -moz-linear-gradient(top, #0098db, #0C75C7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0098db', endColorstr = '#0C75C7');
+}
+
+.blauw2:hover {
+    background: #0C75C7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0C75C7), to(#0098db));
+    background: -moz-linear-gradient(top, #0C75C7, #0098db);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0C75C7', endColorstr = '#0098db');
+}
+
+.blauw2:active {
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0098db), to(#0C75C7));
+    background: -moz-linear-gradient(top, #0098db, #0C75C7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0098db', endColorstr = '#0C75C7');
+}
+
+.blauw2:visited {
+    color: #ffffff;
+}
+
+/* ok icon
+---------------------------------------------- */
+
+.buttonnew span.ok {
+    background-image: url(/web/20101205222105/http://www.shapeways.com/styles/tick.png) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 20px;
+    left: -2px;
+}
+
+.medium span.ok {
+    padding-top: 3px;
+}
+
+/* bin icon
+---------------------------------------------- */
+
+.buttonnew span.bin {
+    background-image: url(/web/20101205222105/http://www.shapeways.com/styles/bin.png) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 20px;
+    left: -2px;
+}
+
+.medium span.bin {
+    padding-top: 4px;
+}
+
+/* add to cart icon
+---------------------------------------------- */
+
+.buttonnew span.cart_add {
+    background-image: url(/web/20101205222105/http://www.shapeways.com/topics/udesign/files/images/cart.png) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 20px;
+    left: -2px;
+}
+
+.medium span.cart_add {
+    padding-top: 4px;
+}
+
+/* next / proceed to checkout
+---------------------------------------------- */
+
+.buttonnew span.next_proceed {
+    background-image: url(/web/20101205222105/http://www.shapeways.com/topics/udesign/files/images/arrow_next.png) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 20px;
+    left: -5px;
+}
+
+.medium span.next_proceed {
+    padding-top: 4px;
+}
+
+/*buttons for countryquickselect*/
+.bt_ok2 {
+    margin-left:11px;
+    margin-top:-1px;
+}
+
+.bt_order4 {
+    float: left;
+}
+/*old style buttons**/
+a.btBlog { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_blog.gif) no-repeat left top; }
+a.btBlog:hover { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_blog.gif) no-repeat -105px top; }
+a.btBlog:focus, a.btBlog:active { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_blog.gif) no-repeat -210px top; }
+a.btBlog span { display: none; }
+
+a.btForum { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_forum.gif) no-repeat left top; }
+a.btForum:hover { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_forum.gif) no-repeat -105px top; }
+a.btForum:focus, a.btForum:active { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_forum.gif) no-repeat -210px top; }
+a.btForum span { display: none; }
+
+
+a.btBacktoforum { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_backtoforum.gif) no-repeat left top; }
+a.btBacktoforum:hover { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_backtoforum.gif) no-repeat -105px top; }
+a.btBacktoforum:focus, a.btBacktoforum:active { width: 105px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_backtoforum.gif) no-repeat -210px top; }
+a.btBacktoforum span { display: none; }
+
+
+a.btGettingStarted { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gettingstarted.gif) no-repeat left top; }
+a.btGettingStarted:hover { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gettingstarted.gif) no-repeat -150px top; }
+a.btGettingStarted:focus, a.GettingStarted:active { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gettingstarted.gif) no-repeat -300px top; }
+a.btGettingStarted span { display: none; }
+
+a.btInstallJava { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_installjava.gif) no-repeat left top; }
+a.btInstallJava:hover { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_installjava.gif) no-repeat -150px top; }
+a.btInstallJava:focus, a.btInstallJava:active { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_installjava.gif) no-repeat -300px top; }
+a.btInstallJava span { display: none; }
+
+/*different button styles*/
+a.btInfo { display: block; width: 16px; height: 16px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/information.png) no-repeat left top; }
+a.btInfo span { display: none; }
+
+a.btCreator { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_creator.gif) no-repeat left top; }
+a.btCreator:hover { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_creator.gif) no-repeat -150px top; }
+a.btCreator:focus, a.btCreator:active { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_creator.gif) no-repeat -300px top; }
+a.btCreator span { display: none; }
+
+a.btUpload:hover { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_upload.gif) no-repeat -150px top; }
+a.btUpload:focus, a.btUpload:active { width: 150px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_upload.gif) no-repeat -300px top; }
+a.btUpload span { display: none; }
+
+a.btLocked { display: block; width: 20px; height: 24px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/locked.jpg) no-repeat left top; }
+a.btLocked span { display: none; }
+
+/*tabs*/
+a.btModelTab  { width: 124px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gallery_models.jpg) no-repeat left top; float: left;}
+a.btModelTab.disabled:hover { width: 124px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gallery_models.jpg) no-repeat left top; }
+a.btModelTab span { display: none; }
+
+a.btShopTab  { width: 128px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gallery_shops.jpg) no-repeat left top; float: left;}
+a.btShopTab.disabled:hover{width: 128px; background: url(/web/20101205222105/http://www.shapeways.com/img/shapeways/bt_gallery_shops.jpg) no-repeat left top}
+a.btShopTab span { display: none; }
+
+.bt_moredetails1 { margin-right:10px}
+
+.btInfoyoutube {
+background:url("/web/20101205222105/http://www.shapeways.com/img/shapeways/information.png") no-repeat scroll left top transparent;
+display:inline-block;
+height:16px;
+width:16px;
+margin-left: 15px;
+}
