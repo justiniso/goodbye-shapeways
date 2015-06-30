@@ -1,5 +1,7 @@
 <html>
     <head>
+        <title>Goodbye Shapeways!</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -71,12 +73,18 @@
             }
 
         </style>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script type="text/javascript">
             index = 1;
 
             var handleClick = function (i) {
                 jQuery("[tabindex=\"" + i + "\"]").click();
+
+                if (index <= 1) {
+                    jQuery(".previous").addClass("disabled");
+                    index = 1;
+                } else {
+                    jQuery(".previous").removeClass("disabled");
+                }
             };
 
             jQuery(document).ready(function () {
@@ -96,6 +104,13 @@
                     handleClick(index);
                 });
 
+                jQuery(".previous").on("click", function (e) {
+                    index--;
+                    handleClick(index);
+                });
+
+                // Do stuff on page load
+                jQuery('.modal').modal();
                 handleClick(index);
 
             });
@@ -155,6 +170,36 @@
         </ul>
 
         <iframe></iframe>
+        <div class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Dear Shapeways...</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                    With my last day fast approaching, the reality is sinking in that I have to say goodbye to all of you. Leaving is never easy, but I take solace in the fact that I'm leaving with newfound knowledge, unforgettable memories, and a number of great friends.
+                </p>
+                <br>
+                <p>
+                    I find that when good times near their end, nolstalgia is a welcome companion to help ease the transition. And if looming frustration and discouragement ever pay you a visit as they often did to me, just take a moment to remember how far we have come. 
+                </p>
+                <br>
+                <p>
+                    This is my parting gift to you: a highly abridged catalogue of the many phases and many faces of <a href="http://shapeways.com">Shapways.com</a>. Like any historian, I could only collect partial artifacts and did my best to restore the missing pieces. But even with its partial record, I hope it conjures up the happy memories for you it did for me. The rest is history that you have yet to make.
+                </p>
+                <br>
+                <p>
+                    Good luck!
+                    <br>
+                    Justin Iso
+                </p>
+                <br>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
     </body>
 </html>
 
