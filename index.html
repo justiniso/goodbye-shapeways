@@ -73,6 +73,12 @@
         </style>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script type="text/javascript">
+            index = 1;
+
+            var handleClick = function (i) {
+                jQuery("[tabindex=\"" + i + "\"]").click();
+            };
+
             jQuery(document).ready(function () {
 
                 var $iframe = jQuery("iframe");
@@ -81,10 +87,17 @@
                     $iframe.attr("src", this.href);
 
                     jQuery(".current").html(jQuery(this).html());
+
+                    index = jQuery(this).attr("tabindex");
                 });
 
-                // Start with the first item
-                jQuery("[tabindex=\"11\"]").click();
+                jQuery(".next").on("click", function (e) {
+                    index++;
+                    handleClick(index);
+                });
+
+                handleClick(index);
+
             });
         </script>
     </head>
