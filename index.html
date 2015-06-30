@@ -11,6 +11,7 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+        <script type="text/javascript" src="js/js.cookie.js"></script>
 
         <style type="text/css">
             body {
@@ -110,8 +111,16 @@
                 });
 
                 // Do stuff on page load
-                jQuery('.modal').modal();
                 handleClick(index);
+
+                // Set cookie for one day
+                if (Cookies.get('visited') === '1') {
+                    console.log('no modal');
+                } else {
+                    console.log('show modal');
+                    Cookies.set('visited', '1');
+                    jQuery('.modal').modal();
+                }
 
             });
         </script>
