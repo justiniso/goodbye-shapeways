@@ -9,17 +9,14 @@ function getEventX(event) {
 	}
 	return posx;
 }
-function getOffset(elem) {
-  var box = (typeof elem.getBoundingClientRect !== 'undefined') ?
-    elem.getBoundingClientRect() : {top: 0, left: 0};
-  var w = window, d = elem.ownerDocument.documentElement;
-  return {
-    top: box.top + (w.pageYOffset || d.scrollTop) - (d.clientTop || 0),
-    left: box.left + (w.pageXOffset || d.scrollLeft) - (d.clientLeft || 0)
-  };
-}
 function getElementX(obj) {
-  return Math.round(getOffset(obj).left);
+	var x = 0;
+	if (obj.offsetParent) {
+		do {
+			x += obj.offsetLeft;
+		} while (obj = obj.offsetParent);
+	}
+	return x;
 }
 function zeroPad(str,len) {
 	var i;
