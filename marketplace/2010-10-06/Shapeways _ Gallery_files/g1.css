@@ -1,17 +1,8 @@
 
-
-
-
-
-/*
-     FILE ARCHIVED ON 18:26:23 Oct 5, 2010 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 2:04:13 Jun 27, 2015.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-html,body{width:100%;height:100%}*{margin:0;line-height:140%}div,h1,h2,h3,h4,h5,span,p,li,ul,ol{padding:0}li,dd{margin-left:5%}fieldset{padding: .5em}ul{margin-left:5px}a,a:visited{color:#0098DB;text-decoration:underline;outline:none}a:hover,a:active{text-decoration:none}body{background:#e9eaec;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;color:#7C8291;behavior:url("/web/20101005182623/http://www.shapeways.com/javascript/csshover3.htc")}#udOuterWrapper{margin:0px
+html,body{width:100%;height:100%}
+*{margin:0;line-height:140%}
+div,h1,h2,h3,h4,h5,span,p,li,ul,ol{padding:0}
+li,dd{margin-left:5%}fieldset{padding: .5em}ul{margin-left:5px}a,a:visited{color:#0098DB;text-decoration:underline;outline:none}a:hover,a:active{text-decoration:none}body{background:#e9eaec;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;color:#7C8291;}#udOuterWrapper{margin:0px
 auto;width:948px;padding:0;min-height:100%;background:#FFF}* html
 #udOuterWrapper{height:100%}#udBetaVersion{position:absolute;width:55px;height:58px;left:454px;top:17px;background:url(/web/20101005182623/http://www.shapeways.com/img/shapeways/bullet_betaversion.png) no-repeat left top}#udHeader{position:relative;width:948px;height:118px;padding:0;background:url(/web/20101005182623/http://www.shapeways.com/img/shapeways/header.png) no-repeat left top}#udHeader
 .homeLink{display:block;position:absolute;top:17px;left:17px;width:214px;height:100px;border:none}#udHeader a.homeLink:hover{background:url(/web/20101005182623/http://www.shapeways.com/img/shapeways/logo_hover2.png) no-repeat left top}#udLoginPanel{position:absolute;right:141px;top:24px;width:320px;height:33px;text-align:right;padding:8px
