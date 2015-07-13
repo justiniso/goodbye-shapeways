@@ -1,0 +1,1033 @@
+
+html,body{width:100%;height:100%}
+*{margin:0;line-height:140%}
+div,h1,h2,h3,h4,h5,span,p,li,ul,ol{padding:0}li,dd{margin-left:5%}fieldset{padding: .5em}ul{margin-left:5px}a,a:visited{color:#0098DB;text-decoration:underline;outline:none}a:hover,a:active{text-decoration:none}body{background:#e9eaec;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;color:#7C8291;}
+#udOuterWrapper{margin:0px
+auto;width:948px;padding:0;min-height:100%;background:#FFF}* html
+#udOuterWrapper{height:100%}#udBetaVersion{position:absolute;width:55px;height:58px;left:454px;top:17px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bullet_betaversion.png) no-repeat left top}#udHeader{position:relative;width:948px;height:118px;padding:0;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/header.png) no-repeat left top}#udHeader
+.homeLink{display:block;position:absolute;top:17px;left:17px;width:214px;height:100px;border:none}#udHeader a.homeLink:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/logo_hover2.png) no-repeat left top}#udLoginPanel{position:absolute;right:141px;top:24px;width:320px;height:33px;text-align:right;padding:8px
+12px 0 0;z-index:9}#udLoginPanel a,
+#udLoginPanel a:visited{color:#C90062}.udLoginPanelOrder{position:absolute;right:141px;top:29px !important;width:320px;height:17px !important;text-align:right;padding:3px
+12px 0 0 !important;z-index:9}#udLoginPanelOrder a,
+#udLoginPanelOrder a:visited{color:#C90062}.cart{text-decoration:none !important}.cartimg{}#udMenu{position:absolute;top:82px;left:233px;height:30px;width:690px;padding:0
+0 0 20px;color:#fff;font-size:1em;overflow:visible;z-index:100}#udMenu
+a{display:block;height:22px;float:left;margin-left:15px;margin-right:15px}a.menuHome,a.menuHome:visited{width:43px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_home.jpg) no-repeat left top}a.menuBrowse,a.menuBrowse:visited{width:52px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_browse.jpg) no-repeat left top}a.menuGallery,a.menuGallery:visited{width:61px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_gallery.jpg) no-repeat left top}a.menuMake,a.menuMake:visited{width:48px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_make.jpg) no-repeat left top}a.menuCommunity,a.menuCommunity:visited{width:90px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_community.jpg) no-repeat left top}a.menuMyDesigns,a.menuMyDesigns:visited{width:89px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_mydesigns.jpg) no-repeat left top}a.menuSupport,a.menuSupport:visited{width:72px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_support.jpg) no-repeat left top}a.menuHome:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_home.jpg) no-repeat left -35px !important}a.menuBrowse:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_browse.jpg) no-repeat left -35px !important}a.menuGallery:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_gallery.jpg) no-repeat left -35px !important}a.menuMake:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_make.jpg) no-repeat left -35px !important}a.menuCommunity:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_community.jpg) no-repeat left -35px !important}a.menuMyDesigns:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_mydesigns.jpg) no-repeat left -35px !important}a.menuSupport:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_support.jpg) no-repeat left -35px !important}li.subHover
+a.menuGallery{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_gallery.jpg) no-repeat left -35px !important}li.subHover
+a.menuMyDesigns{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_mydesigns.jpg) no-repeat left -35px !important}li.subHover
+a.menuCommunity{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_community.jpg) no-repeat left -35px !important}li.subHover
+a.menuSupport{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_support.jpg) no-repeat left -35px !important}a.menuUpload,a.menuUpload:visited{width:78px;margin-left:17px !important;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_upload.png) no-repeat left top}a.menuUpload:hover{margin-left:17px !important;width:78px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_upload.png) no-repeat left -22px !important}* html a.menuUpload, * html a.menuUpload:visited{margin-left:30px !important}a.menuCreator,a.menuCreator:visited{width:78px;margin-left:15px !important;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_creator.png) no-repeat left top}a.menuCreator:hover{width:78px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/menu_creator.png) no-repeat left -22px !important}#udMenu
+a.active{background-position:left -70px !important}#udMenu li.subHover
+a.active{background-position:left -35px !important}#udMenu a.active:hover{background-position:left -35px !important}#submenu{position:relative;height:129px}#submenu
+.overlay{position:absolute;top:0;left: -7px;height:129px;z-index:5;width:900px}#submenu
+a{display:block;position:relative;float:left;height:129px;width:218px;margin:0
+4px 0 0}#submenu a
+span{display:none}#submenu
+a.creator{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/sub_creator.gif) no-repeat left top}#submenu
+a.shops{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/sub_shops.gif) no-repeat left top}#submenu
+a.upload{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/sub_upload.gif) no-repeat left top}#submenu
+a.how{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/sub_how.gif) no-repeat left top}#submenu a:hover{background-position:left -129px}#udHeader{z-index:100}#udMenu
+ul{padding:0;margin:0;list-style:none;background:#015bbb}#udMenu ul
+li{background-color:#015BBB;display:block;position:relative;float:left;width:auto;height:22px;padding:0;margin:0
+16px 0 8px;list-style:none;color:#C2D2E3 !important}#udMenu ul li .firstSubMenuItem
+a{margin-top:-5px;background:url(/web/20101003040035/http://www.shapeways.com/img/shadow.png) no-repeat left top;border-top:none;height:17px}#udMenu ul li .firstSubMenuItem a:hover{background:url(/web/20101003040035/http://www.shapeways.com/img/shadowhover.png) no-repeat left top;height:17px}#udMenu ul li
+a{display:block;position:relative;height:35px;margin:0;padding:0;font-size:1.1em;_font-size:1em;font-weight:bold;text-decoration:none;text-align:left;color:#69c !important}#udMenu ul li a:hover,
+#udMenu ul li
+a.hover{color:#69c !important;text-decoration:none;position:relative}#udMenu ul li:hover>a{color:#69c !important;background-color:#E1F2FA;text-decoration:none;position:relative}#udMenu ul ul li
+a{display:block;float:left;width:130px;height:auto;padding:2px
+10px 3px 10px;font-weight:bold;text-transform:none !important;cursor:pointer;border-top:1px solid #F0F1F5}#udMenu ul
+ul{display:none;left: -8px;top:27px;width:150px;_width:1%;position:absolute;margin-top:13px;margin-left:11px;border-left:1px solid #015BBB;border-right:1px solid #015BBB;border-bottom:1px solid #015BBB;background:none}#udMenu ul ul li
+a{background-color:#FFF}#udMenu ul ul ul,
+#udMenu ul ul ul
+ul{display:none}#udMenu ul li:hover
+ul{display:block;position:absolute;top:22px;left: -8px;padding-top:5px}#udMenu ul li:hover ul ul,
+#udMenu ul li:hover ul ul
+ul{display:none}#udMenu ul ul li:hover ul,
+#udMenu ul ul ul li:hover
+ul{display:none;left:100px;top:0px}#udMenu ul ul
+li{display:block;float:left;top:0;height:auto;margin:0;vertical-align:middle}#udMenu ul ul li a:hover{background-color:#E1F2FA}#udMenu ul ul ul li
+a{}#udMenu li>ul{top:auto;left:auto;color:#F7F7F7}#udContent{position:relative;padding:8px
+17px 10px 17px;margin:0
+0 0 17px;width:870px;border-left:5px solid #d9e7f5;border-right:5px solid #d9e7f5}.udLeft100{position:relative;width:870px;float:left;padding:0}.udLeft75{position:relative;width:630px;float:left;padding:0}.udRight25{width:220px;float:right;margin:0
+0 10px 0;padding:0}.udLeft50{position:relative;width:50%;float:left;padding:0}.udLeft50{position:relative;width:50%;float:left;padding:0}.udRight50{width:50%;float:right;padding:0
+20px 0 0}.udCenter{position:relative;padding:0}.udRightSpacer{width:50px;float:right;height:50px}.udRightSpacerShop{width:50px;float:right;height:0px}#udSearch{position:absolute;width:500px;height:40px;left:400px;top: -45px;z-index:99}#udSearch
+.searchbox{width:250px}#udSearch
+.categoryselect{width:258px}h1{font-size:2.0em;font-weight:normal;color:#0098db;padding:5px
+0 10px 0;z-index: -10}h1.basic{font-size:2.0em;font-weight:normal;color:#0098db;padding:5px
+0 5px 0;margin:0
+!important}h1.modeldetailtitle{width:400px;overflow:hidden}h1.shorter{width:370px}h2{font-size:2.0em;font-weight:normal}h3{font-size:1.5em;font-weight:normal}h3.sub{margin: -10px 0 10px 0 !important;font-size:1em;font-weight:normal;width:350px}.bestnewlinks{display:block;float:right;margin: -26px 30px 0 0;cursor:pointer}.printedmodelslinks{display:block;float:right;margin: -26px 30px 0 0;cursor:pointer}.latestlinks{display:block;float:right;margin: -35px 30px 0 0;cursor:pointer}.shopcontentDiv h3,
+.shopcontentDiv2 h3,
+.shopcontentDiv3 h3,
+.tutorialContent h3,
+.userDetails h3,
+.usershopDetails h3,
+.myOrders .pluginTitle
+h3{font-size:1em;font-weight:bold;color:#0098db;padding:7px
+0 7px 0}.shopcontentDiv4
+h3{font-size:1em;font-weight:bold;color:#0098db;padding:7px
+0 7px 40px}h4{font-size:1.5em;font-weight:normal;color:#252f47}h5{background:#edf3fa;font-size:1.5em;text-transform:capitalize;color:#252f47;font-weight:normal;padding:3px
+0 3px 20px}.number{display:block;font-size:9px;float:left;background:#0098db;color:#FFF;width:10px;height:14px;padding-top:1px;padding-left:4px;margin-right:5px}.numberBig{display:block;font-size:1.7em;font-weight:bold;float:left;background:#0098db;color:#FFF;width:1em;height:1.2em;padding:0
+0 3px 7px;margin:0
+5px 15px 0}.numberDiv{width:50px}.large{color:#0098db;font-size:1.3em}.layoutDefault{margin:0
+0 10px 0}.layoutDefault
+.content{padding:15px
+0 0 0}.layoutDefault .content h1,
+.layoutDefault .content h2,
+.layoutDefault .content h3,
+.layoutDefault .content h4,
+.layoutDefault .content
+h5{margin:0
+0 10px 0}.layoutDefaultBorder{margin:0
+0 10px 0}.layoutDefaultBorder
+.content{padding:0
+0 15px 0;border-bottom:5px solid #d9e6f4}.layoutDefaultBorder .content h1,
+.layoutDefaultBorder .content h2,
+.layoutDefaultBorder .content h3,
+.layoutDefaultBorder .content h4,
+.layoutDefaultBorder .content
+h5{margin:0
+0 10px 0}.bordertop
+.layoutTopBorder{border-top:5px solid #d9e6f4;padding:10px
+0 0 0}.layoutSplitBorder{margin:0
+0 20px 0}.layoutSplitBorder
+.content{padding:15px
+0 0 0;border-top:5px solid #d9e6f4}.layoutSplitBorder .content h1,
+.layoutSplitBorder .content h2,
+.layoutSplitBorder .content h3,
+.layoutSplitBorder .content h4,
+.layoutSplitBorder .content
+h5{margin:0
+0 10px 0}.layoutSplitBorder
+td{vertical-align:top;width:50%;padding-right:10px}.layoutSplitBorder
+td.tdSpacer{width:20px}.layoutBlue{background:#7fcbed;padding:5px
+10px 10px 10px;margin-bottom:20px;color:#FFF}.layoutBlue
+h2{color:#005bbb;font-size:1.7em;padding:0
+0 5px 0;margin:0}.layoutBlue a,
+.layoutBlue a:visited{color:#005bbb}.noLayout{margin-bottom:20px}.noLayout2{padding:0px
+6px 12px 6px;margin-bottom:20px;border-bottom:5px solid #e5eef7}.noLayout2
+h2{margin:0;padding:0
+0 10px 0;font-size:1.2em;font-weight:bold;color:#262f47}.layoutPanel1{border:5px
+solid #d9e6f4;margin-bottom:15px;color:#262f47}.layoutPanel1
+h2{padding:6px;margin:0;font-size:1.2em;font-weight:bold;color:#262f47;border-bottom:5px solid #d9e6f4}.layoutPanel1
+.content{padding:5px}.layoutPanel1
+a{color:#2397cf}.layoutPanel2{border:5px
+solid #d9e6f4;background:#eef3fa;margin-bottom:20px;color:#262f47}.layoutPanel2
+.content{padding:5px}.layoutPanel2
+h2{padding:6px;margin:0;font-size:1.2em;font-weight:bold;color:#262f47;border-bottom:5px solid #d9e6f4}.bannerPanel{margin-bottom:10px;margin-top: -1px}.bannerPanel
+img{border-style:none}.infobox{padding:0
+0 3px 0}.infobox
+.select_fwidth{width:190px}.infobox
+.text_fwidth{width:183px}.infobox_separator{border-bottom:5px solid #d9e6f4;margin:10px
+0 0 0}.layoutPanel2{padding:5px}.layoutPanel2
+a{color:#2397cf}.layoutBox{border:5px
+solid #d9e6f4;padding:10px}textarea.address{width:205px;border:1px
+solid #bdc0c8;white-space:pre-line}div.address{opacity:0.7;font-style:italic;float:left;padding-left:10px}.tutorialParagraph{border:5px
+solid #d9e7f5;padding:7px}.tutorialTable{width:100%;padding-bottom:10px}.tutorialNumber{width:40px;vertical-align:top;padding-left:10px}.tutorialContent{vertical-align:top}.tutorialImage{width:200px;vertical-align:top;padding-left:15px}.tutorialImage
+img{width:200px}#indexTable
+.tdIndexBest{padding-left:20px;width:180px}.pluginTable{width:100%}.pluginTable
+.pluginTitle{padding-bottom:0px}.pluginTable
+span.title{font-weight:bold;color:#262f47}.pluginTable a.title,
+.pluginTable a.title:visited{font-weight:bold;color:#262f47;text-decoration:none}.pluginTable a.title:hover{text-decoration:underline}.latestProducedObjects{border-bottom:5px solid #e5eef7}.latestProducedObjects
+.tdSpacer{width:10px}.latestProducedObjects
+img.preview{border:none;background:#7d8291}.latestImage{padding:0
+0 20px 0 !important}.forumPosts
+h3{font-size:1em;color:#229BD2}.forumPosts
+p{padding:2px
+0 5px 0}.forumPosts{padding-bottom:20px !important}.whatsHot
+h3{font-size:1em;color:#059975}.whatsHot
+p{padding:2px
+0 5px 0}.whatsHot{padding-bottom:20px !important}.fill1{background:#edf2f9}.lpThumbLink{display:block;width:308px}.lpTable{width:308px;height:260px;background:#EDF2F9;margin-bottom:10px}.lpTd{vertical-align:middle;text-align:center}.latestProducedObjects
+.tdSpacer{}input.numeric{text-align:right}.models{}.models
+h1{padding:5px
+0 10px 0}.models
+.notfound{font-size:1.3em;color:#0098DB}.models .rowImage
+.tdThumbPlugin{background:#edf2f9;padding:9px
+8px 9px 0}.rowImage{width:100%;background:#edf2f9}.models .tdThumbPlugin a,
+.models .tdThumbPlugin a:visited{display:block;padding:5px;background:#FFF;margin:0
+auto 0;border:1px
+solid #dadfe5;width:135px;position:relative;text-align:center}.models .tdListThumb
+a{display:block;background:#FFF;border:1px
+solid #dadfe5;width:135px;position:relative;text-align:center}.models
+.tdListThumb{width:135px;padding:5px
+5px 5px 5px !important;text-align:center !important;vertical-align:middle !important}.models .tdListThumb a,
+.models .tdListThumb a:visited{padding:6px;margin:6px
+}.alphacube_content
+div.links{bottom:4px;margin:0;position:absolute;right:11px;font:12px verdana;text-decoration:none !important;color:#0098DB}.alphacube_content div.links a,
+.alphacube_content div.links a:visited{text-decoration:none !important}.alphacube_content
+div.rating{font-size:6pt;padding-bottom:15px;padding-left:5px}.alphacube_content
+div.buyable{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/buyable.png) no-repeat left top;width:20px;height:20px;position:absolute;top:21px}.alphacube_content div.cocreator-template, .alphacube_content div.creator-template{position:absolute;top:21px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/co_creator_template.png)  no-repeat left top;width:20px;height:20px}.alphacube_content div.cocreator-model{position:absolute;top:21px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/co_creator_model.png)  no-repeat left top;width:20px;height:20px}.alphacube_content
+div.part{position:absolute;top:21px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/3dparts.png) no-repeat left top;width:20px;height:20px}.alphacube_content
+div.tc_not_accepted{position:absolute;top:21px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/tc_not_accepted.png) no-repeat left top;width:21px;height:20px}.alphacube_content
+div.buyableprivate{position:absolute;top:21px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/buyableprivate.png) no-repeat left top;width:20px;height:20px}.alphacube_content
+div.icontext{position:absolute;left:30px}.models .tdThumbPlugin a div.buyable, .models .tdListThumb a
+div.buyable{z-index:99;position:absolute;left: -4px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/buyable.png) no-repeat left top;width:20px;height:20px}.models .tdThumbPlugin a div.cocreator-template, .models .tdListThumb a div.cocreator-template,
+.models .tdThumbPlugin a div.creator-template, .models .tdListThumb a div.creator-template{z-index:99;position:absolute;left:16px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/co_creator_template.png)  no-repeat left top;width:20px;height:20px}.models .tdThumbPlugin a div.video, .models .tdListThumb a
+div.video{z-index:99;position:absolute;left:36px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/video_icon.png)  no-repeat left top;width:20px;height:20px}.models .tdThumbPlugin a div.videoleft, .models .tdListThumb a
+div.videoleft{left:16px !important}.models .tdThumbPlugin a div.cocreator-model, .models .tdListThumb a div.cocreator-model{z-index:99;position:absolute;left:16px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/co_creator_model.png)  no-repeat left top;width:20px;height:20px}.models .tdThumbPlugin a div.part , .models .tdListThumb a
+div.part{z-index:99;position:absolute;left:130px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/3dparts.png) no-repeat left top;width:20px;height:20px}.models .tdThumbPlugin a div.tc_not_accepted , .models .tdListThumb a
+div.tc_not_accepted{z-index:99;position:absolute;left:38px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/tc_not_accepted.png) no-repeat left top;width:21px;height:20px}.models .tdThumbPlugin a div.buyableprivate,.models .tdListThumb a
+div.buyableprivate{z-index:99;position:absolute;left:-4px;bottom: -4px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/buyableprivate.png) no-repeat left top;width:20px;height:20px}.models .tdThumbPlugin a:hover{background:#c0cc10 !important}.tdThumbImg a,
+.tdThumbImg a:visited{display:block;padding:5px;background:#FFF;margin:0;border:1px
+solid #dadfe5}.tdThumbImg a:hover{background:#c0cc10}.tdThumbImg
+img{border:none}.models
+img.preview{max-width:135px;max-height:100px;margin:0;border:none}.models
+img.searchpreview{max-width:80px;max-height:61px;margin:0;border:none}.models
+img.photo{max-height:100px;max-width:135px;margin:0;border:none}.models .rowImage
+.tdSpacer{width:9px;background:#edf2f9;padding:0;margin:0}.models .rowDetails
+td{padding:8px
+0 4px 0;vertical-align:top}.models
+.results{background:#edf2f9}.models .results
+td{padding:4px;border-bottom:5px solid #FFF;vertical-align:middle}.models .results
+.showing{text-align:left}.models .results
+.unfinished{text-align:right}.models .results
+.resultorder{text-align:right}.models .results
+.resultpage{text-align:right}.models .resultrows
+select{min-width:15px !important}.fixedInfoWidth{width:145px;margin:0
+auto 0}.gallery
+.fixedInfoWidth{padding-bottom:15px}.myDesigns
+.fixedInfoWidth{padding-bottom:15px}.youAndYourDesign{margin-bottom:15px;padding:5px
+0 0 0}.bestNewDesigns{border-bottom:5px solid #D9E6F4;margin:5px
+0 0 0}.bestNewDesigns
+.fixedInfoWidth{padding-bottom:20px}.myDesigns{margin-bottom:5px}.myDesigns
+.pluginTitle{}.myDesigns .results
+td{}.myDesigns .gallerylink
+a{display:block;vertical-align:middle;margin:10px
+0 10px 0;float:right}.myFavorites
+.pluginTitle{border-top:5px solid #D9E6F4}.myOrders
+.pluginTitle{border-top:5px solid #D9E6F4}.noline
+.pluginTitle{border:none !important}.myOrders
+th{text-align:left}.myOrders
+td.order{width:25%}.myOrders
+td.status{width:25%}.myOrders
+td.credit{width:25%}.myOrders
+td.invoice{width:25%}.myErrors
+th{text-align:left}.myErrors
+td{vertical-align:top}.myErrors
+.delete{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat scroll left top;display:block;height:16px;width:16px}.myErrors .delete
+span{display:none}.myErrors
+.name{width:150px}.myErrors
+.date{width:120px}#modelErrors{position:relative}#modelErrors
+.delete{position:absolute;top:10px;left:180px}.pluginTable
+.navigation{background:#edf2f9;color:#252f47}.pluginTable .navigation
+td{padding:6px;border-bottom:20px solid #FFF;border-top:10px solid #FFF;vertical-align:middle;text-align:right}.gallery
+.pluginTitle{border-bottom:5px solid #D9E6F4}.gallery .rowImage
+.tdThumbPlugin{padding:9px
+18px 9px 0 !important}.gallery .rowImage
+.tdSpacer{width:20px !important}.gallery
+h1{width:270px}.gallerybacklink{display:block;float:right;margin: -26px 15px 0 0;cursor:pointer}.gallerynextnavlink{display:block;float:right;margin: -26px 175px 0 0px;cursor:pointer}.gallerypreviousnavlink{display:block;float:right;margin: -26px 125px 0 0px;cursor:pointer}.shopgallerybacklink{display:block;float:right;margin:20px
+15px 0 0;cursor:pointer}.myshopgallerybacklink{margin:0
+0 0 15px;cursor:pointer}div.galleryswitch{margin-left:80px;width:400px}h1.tablinkactive,h1.tablinkdeactive{display:inline;width:95px;padding:0}div.tab{float:left;width:120px;border-top:4px solid #D9E7F5;border-right:4px solid #D9E7F5;padding:0;margin:0;height:30px;text-align:center}div.lefttab{border-left:4px solid #D9E7F5}.footer{margin:0
+17px 0 17px;border-top:5px solid #d9e7f5;padding:10px
+0 17px 0;text-align:center;font-size:0.9em !important;color:#252f47}.footer a,
+.footer a:visited{text-decoration:none !important;color:#252f47 !important}.footer a:hover{text-decoration:underline !important}.newUserTable{padding-bottom:20px}.newUserTable
+td{vertical-align:top}.newUserTable
+td.tdSpacer{width:20px}.newUserTable
+td.bottom{padding-top:20px}.newUserTable
+td.left{font-size:1.3em;color:#0098DB}.modelDetailTable{width:633px;margin:0
+0 17px 0}.modelDetailTable2{width:100%;margin:0
+0 10px 0;padding:10px
+0;border-top:5px solid #d9e6f4;border-bottom:5px solid #d9e6f4}.modelDetailTable
+td{vertical-align:top}.modelDetailTable
+.preview{width:450px;height:335px}.modelDetailTable .preview
+img#thumb_mdp{width:482px}.modelDetailTable
+.otherModels{float:right;height:334px;margin:0;width:165px;overflow-y:scroll}* html .modelDetailTable
+.otherModels{padding-right:10px}.modelDetailTable .otherModels
+img{padding:0;border:none;width:135px}.modelDetailTable .otherModels a.photoLink,
+.modelDetailTable .otherModels a.photoLinkwoMargin,
+.modelDetailTable .otherModels a.photoLink:visited,
+.modelDetailTable .otherModels a.photoLinkwoMargin:visited{display:block;padding:5px;background:#FFF;margin:0
+0 10px 0;border:1px
+solid #dadfe5}.photoLinkwoMargin{margin:0
+!important}.modelDetailTable .otherModels
+.preview{height:auto !important}.modelDetailTable .otherModels a.photoLink:hover,
+.modelDetailTable .otherModels a.photoLinkwoMargin:hover{background:#c0cc10}.modelDetailTable
+.photodescription{padding:0
+0 10px 0;display:block}.modelDetailTable
+.buttons{padding:20px
+0 20px 0}.modelDetailTable .description,
+.modelDetailTable #cocreator-template-variables{padding:15px
+0 15px 0;color:#252F47}.modelDetailTable .description p,
+.modelDetailTable #cocreator-template-variables
+p{font-size:1.2em}.modelDetailComments{margin-bottom:15px}.modelDetailComments
+.reaction{padding:15px
+0 15px 0;border-bottom:4px solid #e5eef8}.modelDetailComments .reaction
+p{margin:0;padding:0;color:#252f47}.modelDetailComments
+.text{padding:15px;background:#edf3fa}.modelDetailComments .text
+textarea{width:98%}.modelDetailComments
+.navigation{padding:15px
+0 0 0;text-align:right}.modelDetailFeedback{text-align:center;padding:8px
+0 0 15px;font-weight:bold}.detailrating{float:left;height:30px;padding:7px
+10px 0 12px}.modelDetailProperty
+td{vertical-align:top}.modelDetailRelatedModels{border-bottom:5px solid #d9e6f4;margin-bottom:15px}.costCalculationMarkup
+td{vertical-align:bottom}.costCalculationMarkup
+.price{text-align:right;height:15px}.costCalculationMarkup
+.middle{vertical-align:middle}.costCalculationMarkup
+.markup{text-align:right}.costCalculationMarkup
+.markupLine{height:7px;vertical-align:middle}.costCalculationMarkup
+.currency{vertical-align:bottom}.addSelector{width:110px}.previewLightbox
+img{border:none}.photoDelete{display:block;margin:5px
+0 5px 0}.costindicator{}.costindicator.bottomborder{border-bottom:5px solid #d9e6f4}.costindicator
+label{font-weight:bold}.costcalculation{padding:5px}.subline{font-size:0.75em}.costcalculation
+.state{font-style:italic;font-size:85%}#divQuickOrder{width:202px}#divQuickOrder
+span.price{color:#262F47;padding:0
+0 0 8px}.modelDetailTable #titleIcon.cocreator-template{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/cocreator_icons_large.gif) no-repeat -17px -21px;width:46px;height:46px;float:left;vertical-align:top}.modelDetailTable #titleIcon.cocreator-model{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/cocreator_icons_large.gif) no-repeat -74px -21px;width:46px;height:46px;float:left;vertical-align:top}#titleIcon.cocreator-template + h1 object, #titleIcon.cocreator-model + h1
+object{margin-top:6px}.productDescriptionEdit{padding-top:10px;border-top:5px solid #D9E6F4;padding-bottom:10px;margin-bottom:10px}#uploadTable{margin-bottom:20px;width:500px}#uploadTable
+td{padding:0
+15px 0 0;vertical-align:top}#uploadTable
+.middle{vertical-align:middle !important}#uploadTable
+.label{width:120px}#uploadTable .text
+input{width:240px;border:1px
+solid #bdc0c8}#uploadTable .textarea
+textarea{width:240px;border:1px
+solid #bdc0c8}#uploadTable .select
+select{width:246px;border:1px
+solid #bdc0c8 !important}#uploadTable
+.rule{margin:0
+0 10px 0;height:16px}#uploadTable .rule
+div{padding-left:9px;display:block;float:left}#uploadTable
+.btAdd{float:left}#uploadTable
+.btDelete2{display:block;float:right;margin:0
+0 0 10px;width:16px;height:16px;background:url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat left top}#uploadTable .btDelete2 span,
+.btAdd
+span{display:none}.uploadAdd
+td{padding:0px
+!important}#uploadTable
+.ms_placeholder{width:235px}div.autocomplete{position:absolute;width:246px;background-color:white;border:1px
+solid #bdc0c8;margin:0px;padding:0px}div.autocomplete
+ul{list-style-type:none;margin:0px;padding:0px}div.autocomplete ul
+li.selected{background-color:#ffb}div.autocomplete ul
+li{list-style-type:none;display:block;margin:0;padding:2px;height:1.2em;cursor:pointer;clear:both}div.autocomplete .item
+.tagName{display:block;float:left}div.autocomplete .item
+.tagCount{display:block;float:right;color:#ccc;font-size:0.8em;padding-right:2px}div.autocomplete
+.item{clear:both}.udesign_box
+#cat_selector{width:130px}.uploadModel{padding-top:15px}.uploadModel
+td.fileCol{width:344px}.uploadModel td.fileCol
+input{width:240px;border:1px
+solid #bdc0c8;padding-left:3px;padding-top:3px}.uploadModel td.fileCol input:focus{background-color:transparent}.uploadModel
+div.fileinputs{position:relative;width:344px}.uploadModel td.fileCol
+input.file{width:344px;margin:0}.uploadModel
+input.file.hidden{position:relative;text-align:right;-moz-opacity:0;filter:alpha(opacity: 0);opacity:0;z-index:2}.uploadModel
+div.fakefile{position:absolute;top: -3px;left:0px;width:390px;padding:0;margin:0;z-index:1;line-height:90%}.RowStyleB .uploadModel
+div.fakefile{height:100%}.uploadModel div.fakefile
+input{margin:3px
+0 5px 0}.uploadModel
+#filetypes{padding:10px
+0 5px 0;font-size:0.9em}.dialog{margin-left:20px !important;z-index:10}.advancedSearchPanel .text
+input{width:240px}.advancedSearchPanel .select
+select{width:246px}.advancedSearchSection{overflow:hidden;margin:10px;clear:both}.advancedSearchSection label,
+.advancedSearchSection
+.label{width:180px;float:left}.advancedSearchSection
+ul{list-style:none;margin-left:158px;clear:both}.advancedSearchSection ul
+label{float:none;display:inline}.advancedSearchSection ul.topCategories,
+.advancedSearchSection
+ul.otherCategories{width:400px}.advancedSearchSection
+ul.allCategories{width:550px}.advancedSearchSection ul.topCategories li,
+.advancedSearchSection ul.otherCategories li,
+.advancedSearchSection ul.allCategories
+li{float:left;width:150px}.advancedSearchSection
+.categoryControl{clear:both;margin-left:170px}.advancedSearchSection .categoryControl
+a{margin:10px}.advancedSearchPanel
+.searchControls{padding:10px
+0 0 180px}.advancedSearchPanel .searchControls
+a{margin-right:10px}.userDetails{width:100%}.userDetails
+td{padding-right:15px;vertical-align:top}.userDetails
+.middle{vertical-align:middle !important}.userDetails
+.label{width:150px}.userDetails .text
+input{width:410px;border:1px
+solid #bdc0c8}.userDetails .textarea
+textarea{width:410px;border:1px
+solid #bdc0c8}.userDetails .select
+select{width:416px;border:1px
+solid #bdc0c8 !important}.userDetails
+.small{width:100px !important}.userDetails td.warning, modelDetailTable
+div.warning{padding:0px;padding-top:5px;padding-bottom:5px}.userDetails div.warning, .modelDetailTable
+div.warning{padding:5px;border:solid 1px #BDC0C9;background-color:#FFE9EB}.userDetails
+#{padding-top:10px}.preferences
+td{vertical-align:top}.preferences
+input{border:none}.preferences
+.label{padding-left:5px}.avatarUpload
+.avatarpic{width:75px;position:relative}.avatarUpload .avatarpic
+img{width:50px}.avatarUpload
+.avatarinfo{padding-right:5px}.avatarUpload
+div.fileinputs{position:relative}.avatarUpload
+div.fakefile{position:absolute;top:0px;left: -3px;z-index:1}.avatarUpload div.fakefile
+input{width:90px}.avatarUpload
+input.file{position:relative;text-align:right;-moz-opacity:0;filter:alpha(opacity: 0);opacity:0;z-index:2}.avatarUpload .fileinputs
+.browse{width:85px}.avatarUpload .fileinputs
+a.btBrowse{position:absolute;right: -93px;top: -5px;height:32px;width:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_browse.gif) no-repeat left top}.avatarUpload .fileinputs a.btBrowse:focus,
+.avatarUpload .fileinputs a.btBrowse:active{width:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_browse.gif) no-repeat -170px top}.avatarUpload .fileinputs a.btBrowse
+span{display:none}#avatardelete{width:16px;bottom:0;margin-left:49px}.usershopLocked{vertical-align:super}.usershopDetails
+td{vertical-align:top;padding-right:15px;min-width:90px}.usershopDetails
+.shoplogopic{width:75px;position:relative}.usershopDetails .shoplogopic
+img{width:50px}.usershopDetails
+.shoplogoinfo{padding-right:5px}.usershopDetails
+div.fileinputs{position:relative;padding-bottom:10px}.usershopDetails
+div.fakefile{position:absolute;top:0px;left:0px;z-index:1}.usershopDetails div.fakefile
+input{width:310px}.usershopDetails
+input.file{width:420px;height:28px;position:relative;text-align:right;-moz-opacity:0;filter:alpha(opacity: 0);opacity:0;z-index:2}.usershopDetails
+.category{clear:both}.agree_terms{border:none;text-decoration:none !important}.usershopDetails
+.categories{width:150px}.usershopDetailsInput,
+.usershopDetails
+textarea{width:410px}.shoplocationPrefix{vertical-align:middle;white-space:nowrap;padding-right:1px}.shoplocation{width:190px}.usershopDetails
+.label{width:150px}.usershopDetails .fileinputs
+.browse{width:85px}.usershopDetails .fileinputs
+a.btBrowse{position:absolute;right: -93px;top: -5px;height:32px;width:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_browse.gif) no-repeat left top}.usershopDetails .fileinputs a.btBrowse:focus,
+.usershopDetails .fileinputs a.btBrowse:active{width:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_browse.gif) no-repeat -170px top}.usershopDetails .fileinputs a.btBrowse
+span{display:none}#shoplogodelete{width:16px;bottom:0}.shopBannerPreview{width:400px;height:65px}.changePassword
+.changePassword
+.label{width:150px}.changePassword .text
+input{width:180px}#expertiseTable{width:100%}#expertiseTable
+select{width:110px}.categorySelector
+.name{width:232px;float:left;margin:0
+0 10px}.sectionSelector
+.name{width:232px;float:left;margin:0
+0 10px}.categorySelector
+a{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat scroll left top;display:block;float:left;height:16px;width:16px}.sectionSelector
+a{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat scroll left top;display:block;float:left;height:16px;width:16px}.expertiseBlock
+.expertiseDel{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat scroll left top;display:block;float:left;height:16px;width:16px}.categories .btDelete2, .galleries .btDelete2, .sections
+.btDelete2{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat scroll left top;display:block;height:16px;width:16px}.materials .materialAdded
+.btDelete2{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat scroll left top;display:block;height:16px;width:16px}.materials .materialAdded a
+span{display:none}.categories a  span, .galleries a span , .sections a
+span{display:none}.expertiseBlock a
+span{display:none}.categorySelector a
+span{display:none}.sectionSelector a
+span{display:none}.categorySelector
+select{display:block;float:left;width:250px;margin:3px
+0 0 0}.sectionSelector
+input{display:block;float:left;width:250px;margin:3px
+0 0 0}.sectionSelector
+.hidden{display:none}.categorySelector
+.btAdd{float:left;height:32px;margin-left:15px}.sectionSelector
+.btAdd{float:left;height:32px;margin-left:15px}.searchTable
+td{padding-right:15px}.searchTable .text
+input{width:200px}.searchTable .select
+select{width:206px}.searchTable{}.faqMainPanel{margin-bottom:10px}.faqMainPanel
+.faqSearchForm{padding-bottom:10px}.faqMainPanel .faqSearchForm label,
+.faqSelectCat
+label{display:block;float:left;padding-top:5px;width:150px}.faqMainPanel
+.faqSelectCat{padding-bottom:10px}#faqQuestions
+.faqQuestion{border-bottom:4px solid #e5eef8;padding:10px
+0 10px 0}#faqQuestions .faqQuestion a,
+#faqQuestions .faqQuestion a:visited{padding:0
+0 0 20px;text-decoration:none;font-size:1.2em;color:#0098db !important}#faqQuestions .faqQuestion a.category,
+#faqQuestions .faqQuestion a.category:visited{padding:0;font-size:1em}#faqQuestions .faqQuestion a:hover{text-decoration:none}#faqQuestions
+.faqAnswer{padding:10px
+0 0 20px;color:#252f47}#faqQuestions .faqAnswer
+a{color:#005eaa !important;text-decoration:underline !important}#faqQuestions .morequestions,
+#faqQuestions
+.closehelp{font-weight:bold;color:#4F4F4F !important}#udHelpPanel{position:absolute;right:0px;top:26px;background:#FFF;padding:10px
+5px 5px 5px;width:190px;z-index:105;border:solid 1px #7C8291}.invitationTable{margin-bottom:20px;width:585px}.invitationTable
+td{padding-right:15px;vertical-align:top}.invitationTable
+.middle{vertical-align:middle !important}.invitationTable
+.label{width:120px}.invitationTable .text
+input{width:440px;border:1px
+solid #bdc0c8}.invitationTable .textarea
+textarea{width:410px;border:1px
+solid #bdc0c8}.invitationTable .select
+select{width:446px;border:1px
+solid #bdc0c8 !important}.invitationTable
+.submit{padding:20px
+0 0 0}.invitationTable
+.padding{padding:15px
+15px 30px 15px;background:#edf3fa;border-right:15px solid #FFF}.sendfriendTable{margin-bottom:20px;width:585px}.sendfriendTable
+td{padding-right:15px;vertical-align:top}.sendfriendTable
+.middle{vertical-align:middle !important}.sendfriendTable
+.label{width:180px}.sendfriendTable .text
+input{width:180px;border:1px
+solid #bdc0c8}.sendfriendTable .textarea
+textarea{width:420px;border:1px
+solid #bdc0c8}.sendfriendTable
+.submit{padding:20px
+0 0 0}.sendfriendTable
+.padding{padding:15px
+15px 30px 15px;background:#edf3fa;border-right:15px solid #FFF}.subscribeTable{padding:10px
+0 0 0;margin-bottom:20px}.subscribeTable
+td{padding-right:15px;vertical-align:top}.subscribeTable
+.middle{vertical-align:middle !important}.subscribeTable
+.label{width:140px}.subscribeTable .text
+input{width:440px;border:1px
+solid #bdc0c8}.subscribeTable .textarea
+textarea{width:410px;border:1px
+solid #bdc0c8}.subscribeTable .select
+select{width:448px;border:1px
+solid #bdc0c8 !important}.subscribeTable
+.padding{padding:15px
+15px 30px 15px;background:#edf3fa;border-right:15px solid #FFF}#usernametakenTable{position:absolute;width:200px;top:70px;right:0}.shippingTable{margin-bottom:0px;width:100%}.shippingTable
+th{text-align:left;padding:3px}.shippingTable
+td{padding-right:7px;padding-left:3px;padding-bottom:3px;padding-top:3px;vertical-align:top}.shippingTable td .userDetails
+td{padding-bottom:0px;padding-top:0px}.shippingTable
+.middle{vertical-align:middle !important}.shippingTable
+.label{width:140px}.shippingTable
+td.text{width:103px}.shippingTable
+td.select{width:124px}.shippingTable
+td.area{width:103px}.shippingTable
+.padding{padding:15px
+15px 30px 15px;background:#edf3fa;border-right:15px solid #FFF}.shippingTable
+.address{width:130px;border:1px
+solid #bdc0c8;white-space:pre-line}.addressButtons{padding:3px
+5px 0 0 !important;width:40px}.addressButtons
+a{display:block;float:left;margin-left:2px}.orcreateanewone{padding:10px
+0 15px 0}.yesnoselector,.addressselector{border:none !important}.selector{padding-top:3px}.selector
+input{width:10px !important}.shippingAddress{background:#EDF3FA}.billingaddress{width:270px;float:left}.shippingaddress{width:270px;float:right}#loginTable{margin-bottom:20px;width:100%}#loginTable
+td{padding-right:15px}#loginTable
+.label{width:180px}#loginTable td
+input{border:none}#loginTable td #login_id,
+#loginTable td
+#login_password{border:1px
+solid #bdc0c8 !important;width:90%;letter-spacing:1px;font-weight:bold}#loginTable td.rememberbox
+input{width:auto}.udPasswordforgotten{}#forgottenTable{margin-bottom:20px;width:400px}#forgottenTable
+td{padding-right:15px}#forgottenTable td
+input{border:1px
+solid #e3e2e0;width:200px}#forgottenTable
+.label{width:200px}.agreeTable
+td{padding-right:5px !important}.agreeTable
+input{border:none}.agreeTable a
+img{border:none;text-decoration:none !important}#loader{position:absolute;right:5px;width:30px}.shopModelTable{color:#000}.shopModelTable
+.title{color:#615954;font-weight:bold}.shopSpecificationTable{color:#000}.shopSpecificationTable
+.title{color:#615954;font-weight:bold}.shopSpecificationTable
+td{padding:0
+0 10px 0}.shopDetailTable{color:#000}.shopDetailTable .title, .shopDetailTable
+label{color:#615954;font-weight:bold}.shopDetailTable
+input{width:200px}.shopDetailTable
+select{width:200px}.shopDetailTable .innertable
+td{padding:0
+!important}#shopNotification{font-weight:bold;padding:3px;float:left}.model_size_title{padding-top:12px !important}.size_matrix{width:auto !important}.size_matrix
+td{padding:0}.breadcrumb{padding-bottom:20px}.breadcrumb
+.item{float:left;margin:0
+16px 0 0}.breadcrumb .item
+.number{display:block;font-size:9px;float:left;color:#FFF;width:10px;background:#bbbdbf;height:14px;padding-top:1px;padding-left:4px;margin-right:4px}.breadcrumb .active
+.number{background:#0098db}.breadcrumb .visited
+.number{background:#bbbdbf}.breadcrumb .visited
+.text{text-decoration:underline}.shopnumberDiv{width:40px;height:40px;float:left}.shopcontentDiv{width:578px;float:left}.shopcontentDiv2{width:858px;float:left;padding-top:0px}.shopcontentDiv3{width:578px;float:left;padding:10px
+0 0 40px}.shopcontentDiv4{float:left;padding:10px
+0 0 0;border-top:5px solid #d9e7f5}#discountresponse{font-style:italic;color:#f00}div#orderNotification{background-color:#eee;text-align:center;width:100%;height:60px;margin-bottom:10px}div.paragraph
+div#orderNotification{width:100%}div#orderNotification
+p.confirmTitle{padding-top:10px;line-height:22px;align:baseline}div#orderNotification p.confirmTitle
+img{vertical-align:middle}.cartTable{width:858px}.cartTable
+th{padding:0
+10px 15px 10px;font-weight:bold;color:#252f47;text-align:left}.cartTable
+th.price{text-align:right !important}.cartTable
+td{padding:10px;background:#edf2f9;vertical-align:top}.cartTable
+td.option_price_euro{padding:0
+0 0 0;background:#edf2f9;vertical-align:top;text-align:right}.cartTable
+td.thumb{width:155px}.cartTable
+td.title{width:178px}.cartTable
+td.scale{width:35px}.cartTable
+td.size{width:177px}.cartTable
+td.material{width:208px}.cartTable
+select.quantity{width:120px}.cartTable
+input.quantity{width:111px}.cartTable
+td.price{width:150px}.cartTable
+td.amount{color:#252f47;text-align:right !important}.cartTable
+td.euroamount{color:#252f47;text-align:right !important}.cartTable
+td.option_price{width:auto;color:#252f47;text-align:right !important}.cartTable
+td.option_price.label{width:auto}.cartTable
+td.discount{padding-bottom:0px}.cartTable
+td.vat{padding-top:0px;color:#9499a5;text-align:right}.cartTable
+td.subtotal{background:#FFF !important}.cartTable
+td.total{font-weight:bold}.cartTable
+.materialselect{width:120px}.cartTable
+.preview{display:block;padding:5px;background:#FFF;margin:0;border:1px
+solid #dadfe5;width:135px}.cartTable
+td.wrapping{padding:0
+10px 0px 10px}.cartTable
+td.wrapping_top{padding:10px
+10px 0 10px}#discountresponse{padding-top:5px}.cartTable
+td.white{background:#FFF !important;font-size:0.1em}.cartTable
+label{font-weight:bold;color:#252f47}.cartTable
+label.grey{color:#9499a5;font-weight:normal}div.priceSpacer{width:50px}.totalTable{width:858px;color:#000}.totalTable
+.label{width:142px;padding:5px
+50px 5px 0;text-align:right}.totalTable
+.amount{width:118px;padding-right:60px;text-align:right;vertical-align:middle}.totalTable
+.subtotal{border-bottom:2px solid #D9E6F4}.totalTable
+.totalamount{width:118px;padding-right:60px;text-align:right;vertical-align:top;border-top:2px solid #D9E6F4;padding-top:10px;font-weight:bold}.totalTable
+.totaleuroamount{width:118px;padding-right:60px;text-align:right;vertical-align:top;padding-bottom:10px}.totalTable
+.totallabel{width:130px;padding:10px
+50px 5px 0;text-align:right;vertical-align:top;padding-top:15px !important}.invoice_itinerary{padding:20px
+0px 20px 0px;margin-bottom:10px}.invoice_itinerary
+.totalTable{width:100%}.invoice_itinerary .totalTable
+.itemSummary{text-align:right;padding:0
+30px 20px 20px;color:#7C8291;width:150px}.invoice_itinerary .totalTable .itemSummary
+strong{color:#000;font-weight:normal}.invoice_itinerary .totalTable
+.itemAmount{width:120px;padding:0
+60px 20px 0;text-align:right;vertical-align:bottom}.invoice_itinerary .totalTable
+.amount{width:120px !important}.invoice_itinerary .totalTable
+.label{width:220px;padding:5px
+30px 5px 20px}.invoice_itinerary .totalTable
+.totallabel{border-top:2px solid #D9E6F4;font-weight:bold;padding:0
+30px 5px 20px;padding-top:10px !important;width:220px}.blue{background:#EEF3FA;padding:20px
+0px 20px 0px;margin-bottom:10px}.blue
+.totalTable{width:100%}.blue .totalTable
+.itemSummary{text-align:right;padding:0
+30px 20px 20px;color:#7C8291;width:350px}.blue .totalTable .itemSummary
+strong{color:#000;font-weight:normal}.blue .totalTable
+.itemAmount{width:120px;padding:0
+60px 20px 0;text-align:right;vertical-align:bottom}.blue .totalTable
+.amount{width:120px !important}.blue .totalTable
+.label{width:220px;padding:5px
+30px 5px 20px}.blue .totalTable
+.totallabel{border-top:5px solid #D9E6F4;font-weight:bold;padding:0
+30px 5px 20px;padding-top:10px !important;width:220px}.ordersummaryTable{width:400px}.ordersummary
+td{padding-right:15px;vertical-align:top}.ordersummary
+.middle{vertical-align:middle !important}.ordersummary
+.label{width:140px}#saveAddressStatus,#saveUpdatedAddressStatus{color:red;font-weight:bold}.star{display:block;float:left;margin:0;width:13px;height:13px}.myrating{display:block;position:absolute;border:solid 1px #7C8291;background:white;padding:3px;margin-left:10px;margin-top:5px}.ratingEdit{display:block}.ratingTitle{width:40px;float:left;height:15px}.ratingStars{width:70px;float:left;height:15px}.ratingVotes{float:left;height:15px}.ratingHover{width:7px;float:left;height:15px}.loading{height:15px}.bt{display:block;height:32px}.btMini{display:block;height:24px}a.disabled,a.disabled:focus,a.disbled:hover,a.disabled:active{background-position:right top}.btspacing{margin-bottom:5px}a.btTrash{position:relative}a.btTrashCart{display:block;width:40px;padding:0
+0 0 10px}#mainpane{width:100%}#mainpane
+p{display:block;margin-bottom:15px}#mainpane
+blockquote{padding:0
+25px 15px 30px}.blogSpacer{margin-bottom:10px}#mainpane
+#content{padding:0
+25px 0 0;width:630px;z-index:20}#serendipity_banner{display:none}.serendipity_entry{padding:0
+0 15px 0;margin:0
+0 10px 0;border-bottom:5px solid #d9e6f4;clear:both;color:#252f47}.serendipity_content_message{padding-top:20px}.serendipity_entry_extended ol,
+.serendipity_entry_extended ul,
+.serendipity_entry_body ol,
+.serendipity_entry_body
+ul{padding:0px
+0px 12px 0px !important}.serendipity_date{margin:0
+0 10px 0;font-size:1em;font-weight:bold;color:#262f47}.serendipity_title{font-size:1.5em;margin-bottom:10px}.serendipity_entryFooter{clear:both;padding-top:10px}.serendipity_commentsTitle{font-size:1.5em;font-weight:normal;color:#252f47}.serendipity_comment{padding:15px
+0 15px 0 !important;border-bottom:5px solid #d9e6f4;color:#252f47}.serendipity_comment_source{padding-top:10px}#serendipityRightSideBar{padding:0
+0 20px 0}h3.serendipitySideBarTitle{padding:6px;margin:0;font-size:1.2em;font-weight:bold;color:#262f47;border-bottom:5px solid #d9e6f4}h4.serendipity_title a,
+h4.serendipity_title a:visited{text-decoration:none}h4.serendipity_title a:hover{text-decoration:underline}.serendipityCommentForm
+h5{font-size:1em;font-weight:bold;color:#262f47;background:none;padding:0;margin:0}.serendipity_commentsTitle{display:none}.serendipitySideBarItem{border:5px
+solid #d9e6f4;margin-bottom:15px}.serendipitySideBarContent{padding:6px}.container_serendipity_archives_plugin,.container_serendipity_categories_plugin{background:#eef3fa}div.container_serendipity_plug_plugin{display:none}.serendipity_search{margin-bottom:15px}.serendipity_calendar
+td{padding:2px;font-size:1em}.serendipity_imageComment_right{float:right}.serendipity_imageComment_txt{font-size:0.9em;font-weight:bold}.serendipityCommentForm{padding:10px
+0 0 0}.serendipityCommentForm table
+td{padding:0
+0 5px 0;vertical-align:top}.serendipity_commentsLabel{width:130px}.serendipityCommentForm .serendipity_commentsLabel,
+.serendipityCommentForm
+.serendipity_commentsValue{padding:4px
+0 4px 10px !important}#serendipity_commentform_name,#serendipity_commentform_email,#serendipity_commentform_url,#serendipity_commentform_comment{width:400px}#serendipity_replyTo{width:408px}.serendipity_commentDirection{padding-top:10px}.serendipity_msg_notice{font-weight:bold;color:#b6c504}form{margin:0;padding:0;display:inline}input,select,textarea{font:1em Arial, helvetica, sans-serif;padding:3px;border:1px
+solid #bdc0c8}select{min-width:110px}textarea{line-height:1.25}label{cursor:pointer}.rowspacer{height:5px;font-size:0px}.checkbox{border:none !important}.poll{margin-bottom:10px;clear:both}.poll ul,
+.poll
+li{margin:0;padding:0}.poll
+h3{margin-bottom:5px}.poll
+ul{margin-left:5px}.poll ul
+li{list-style:none;padding-top:5px}.vote{margin:5px;margin-top:10px}.poll
+label{vertical-align:10%;padding-left:5px}.poll
+.result{width:170px;clear:both;height:22px}.poll
+.result_graph{float:left;width:120px;height:20px;border:solid 1px #BDC0C8}.poll .result_graph
+.score{height:20px;background-color:#c7d500}.poll
+.result_percentage{text-align:right;float:left;width:40px;line-height:20px}.poll
+input{border:none}#atk_debugging_div{margin:50px
+0 0 40px;font-family:Courier,Arial;font-size:14px;color:#444}input.starOff{display:block;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/ud_star_off.gif) no-repeat center center;width:15px;height:13px;border:0px;cursor:pointer}.starOn{display:block;float:left;margin:0;width:15px;height:13px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/ud_star_on.gif) no-repeat left top}.starOff{display:block;float:left;margin:0;width:15px;height:13px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/ud_star_off.gif) no-repeat left top}div.sharethis{float:right;padding-top:10px}.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.clearfix{display:inline-block}html[xmlns] .clearfix{display:block}* html
+.clearfix{height:1%}.bluecorner{background:#b6aeab url(/web/20101003040035/http://www.shapeways.com/img/ud_cornerblue.jpg) no-repeat left top !important}.orangecorner{background:#b6aeab url(/web/20101003040035/http://www.shapeways.com/img/ud_cornerorange.jpg) no-repeat left top !important}.greencorner{background:#b6aeab url(/web/20101003040035/http://www.shapeways.com/img/ud_cornergreen.jpg) no-repeat left top !important}.darkgreencorner{background:#b6aeab url(/web/20101003040035/http://www.shapeways.com/img/ud_cornerdarkgreen.jpg) no-repeat left top !important}.redborderthick{border:2px
+solid #B50C21}.red,.errors{color:#B50C21}.black,{color:#000}.grey{color:#9499a5}.clear{clear:both}.floatleft{float:left}.floatright{float:right}.textleft{text-align:left}.textright{text-align:right}.textcenter{text-align:center}.textjustify{text-align:justify}.bold{font-weight:bold}.italic{font-style:italic}.underline{border-bottom:1px solid}.highlight{background:#ffc}.smallfont{font-size:0.85em}.imgleft{float:left;margin:4px
+10px 4px 0}.imgright{float:right;margin:4px
+0 4px 10px}.noborder{border:none}.noborder
+input{border:none !important}.nopadding{padding:0
+!important}.noindent{margin-left:0;padding-left:0}.nobullet{list-style:none;list-style-image:none}.nowrap{white-space:nowrap}.paddingleft{padding-left:15px}.obligatory{color:#B50C21;font-weight:bolder}.modeltag_1{font-size:1em}.modeltag_2{font-size:1.2em}.modeltag_3{font-size:1.4em}.modeltag_4{font-size:1.6em}.modeltag_5{font-size:1.8em}.modeltag_6{font-size:2.1em}.modeltag_7{font-size:2.4em}.modeltag_8{font-size:2.7em}.formnote{font-size:0.8em}input.radiobutton,input.checkbox{width:auto}.form_inappropriate_cell{padding:0px
+10px 10px 12px}.form_inappropriate_cell2{background-color:#EDF2F9;padding:10px
+10px 25px 10px}.hcprice{font-size:x-large}.subscript{font-size:smaller}.cufflinkHead{width:420px;color:#0098DB;font-size:2em;font-weight:normal}.cufflinkSub{width:420px;color:#0098DB;font-size:1em;font-weight:normal}.manualscaleTitle{color:black;padding:8px;border-color:#D9E6F4;border-style:solid;border-width:2px;width:80px;background-color:#EDF3FA}.manualscale{color:black;padding:5px;padding-left:20px;border-color:#D9E6F4;border-width:2px;border-style:solid;background-color:#EDF3FA;width:500px}.padding8{padding:8px}td.manualscale
+input{text-align:center}.leftBorder{padding-left:20px;border-left:5px solid #D9E6F4}.partDownload{color:black;font-weight:bold}.excelicon{width:50px;heigh:20px}.models .tdThumbPlugin a
+div.moveToStart{z-index:99;position:absolute;left:5px;bottom:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/model_move.png) no-repeat left top;width:16px;height:16px}.models .tdThumbPlugin a
+div.movePageBack{z-index:99;position:absolute;left:20px;bottom:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/model_move.png) no-repeat -16px top;width:16px;height:16px}.models .tdThumbPlugin a
+div.moveBack{z-index:99;position:absolute;left:36px;bottom:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/model_move.png) no-repeat -32px top;width:16px;height:16px}.models .tdThumbPlugin a
+div.moveForward{z-index:99;position:absolute;left:92px;bottom:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/model_move.png) no-repeat -48px top;width:16px;height:16px}.models .tdThumbPlugin a
+div.movePageForward{z-index:99;position:absolute;left:108px;bottom:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/model_move.png) no-repeat -64px top;width:16px;height:16px}.models .tdThumbPlugin a
+div.moveToEnd{z-index:99;position:absolute;left:124px;bottom:85px;background:url(/web/20101003040035/http://www.shapeways.com/img/model_move.png) no-repeat -80px top;width:16px;height:16px}.models .tdThumbPlugin a
+div.navigatecontainer{display:none}.models .tdThumbPlugin a:hover
+div.navigatecontainer{display:block}.shopDescription{color:black;padding-left:10px}.shopNav{padding-top:21px !important;padding-bottom:0px !important}.allModelsLink{font-weight:bold}.shopBanner{width:870px;height:125px}.shopOrder{margin-left:20px}.models .row1ListView
+td{background:#edf2f9;vertical-align:top}.models .row2ListView
+td{vertical-align:top}.models
+.listViewDate{width:160px;vertical-align:top !important;text-align:right;padding-right:10px !important;padding-top:13px !important}.models
+.listViewDescription{padding-top:9px !important}.models
+.listViewDescriptionUsershop{padding-top:13px !important}.shopListTitle,.shopListDate{color:black}.gallerySortSpan{text-align:right}.galleryRowsChoser{text-align:left !important}.gallerylimitChoser{text-align:left !important}.galleryRowsChoser
+SELECT{min-width:15px !important}.gallerylimitChoser
+SELECT{min-width:15px !important}.galleryPrice{position:relative;top:80px}.descriptiontextshop{min-height:40px}.descriptiontext{height:65px}.descriptiontextmodels{min-height:80px}.dateDiv{height:95px}.nrOfShopsDiv{min-height:85px}.models .tdListThumb
+a{display:block;background:#FFF;border:1px
+solid #dadfe5;width:135px;position:relative;text-align:center !important;ViewDescriptionUse}.paymentSelect{border-top:5px solid #D9E7F5;border-bottom:5px solid #D9E7F5}.paymentContainer{width:100%;border-collapse:collapse}td.paymentEuro{border-left:1px solid #d9e6f4;border-right:1px solid #d9e6f4}.paymentInfo{display:block;margin:10px
+0px 10px 0px}.paymentContainer
+td{background:url('/web/20101003040035/http://www.shapeways.com/img/payment_method_back.png') bottom left repeat-x;background-color:#fff;height:100px;text-align:center;line-height:150%}.paymentContainer input, .paymentContainer
+img{margin:15px}.paymentContainer td:hover, .paymentContainer
+td.selected{background:url('/web/20101003040035/http://www.shapeways.com/img/payment_method_hover_back.png') bottom left repeat-x}.paymentContainer
+.paymentType{font-weight:bold}.paymentMethod{font-weight:bold}.methodTopBorder{border-top:5px solid #D9E6F4}.method{color:#7C8291}vertical-align: middle !important}.models .tdSearchThumb
+a{display:block;background:#FFF;border:1px
+solid #dadfe5;width:81px;position:relative;text-align:center !important}a.searchTitle,.a.searchTitle:visited{font-size:12pt;font-family:arial}a.searchTitleModel,.a.searchTitleModel:visited{font-size:12pt;font-family:arial;padding-left:7px}.rowSearchView
+td{vertical-align:top;border-bottom:2px solid #edf2f9}.rowSearchModelView
+td{vertical-align:top;border-bottom:2px solid #edf2f9;height:76px}.rowSearchView
+td{vertical-align:top;border-bottom:2px solid #edf2f9;height:92px;padding-top:2px}.models
+.listViewDescriptionModel{padding-top:6px !important;padding-left:8px}.models
+.listViewDescriptionSearch{padding-top:5px !important;min-height:38px}.models
+.listViewDescriptionModel{margin-bottom:4px;padding-top:6px !important;padding-left:8px;width:766px}.searchBottomUrl{color:#c0cc10;text-decoration:none}.tdzoekopdracht
+input{font-weight:normal;color:#1f679b;width:77px;height:17px;padding-top:2px;padding-bottom:0px;border-right:none}.tdlargezoekopdracht
+input{font-weight:normal;color:#1f679b;width:260px;height:17px;padding-top:2px;padding-bottom:0px;border-right:none}.tdbutton{text-align:right}.tdbutton
+input{padding:0px;border:none}.largezoektable{margin-top:15px;margin-bottom:15px}#udSearchPanel{position:absolute;right:  -191px;top:31px;width:320px;height:17px;text-align:right;padding:3px
+12px 0 0;z-index:9}.resultsText{padding-left:20px}.not_agreed_tc{background-color:#f1d4d9;margin-left:-10px;margin-bottom:10px;padding:9px;width:193px}.not_agreed_tc
+.icon{background:transparent url(/web/20101003040035/http://www.shapeways.com/img/shapeways/error_icon_large.png) no-repeat scroll -4px top;height:50px;padding-left:55px;font-weight:bold}.agreeresult{padding:5px;font-weight:bold}.tableCellAllignTop{vertical-align:text-top}.requestcocreator{width:129px;color:#7C8291;font-size:1em}.cocreatorinfo
+a.btGo2{margin-right:0px !important}.sortcolselect{width:100px}.sortdirselect{width:100px}.sortrowselect{width:100px}.gallerynavfirst{display:inline-block;vertical-align:middle;width:19px;height:19px;margin:0
+5px 0 0;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_navigation.png) -20px}.gallerynavprevious{display:inline-block;vertical-align:middle;width:19px;height:19px;margin:0
+5px 0 0;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_navigation.png) -40px}.gallerynavnext{display:inline-block;vertical-align:middle;width:19px;height:19px;margin:0
+0 0 5px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_navigation.png) -60px}.galleryviewselector{position:relative}.galleryviewselectorbutton{position:absolute;top: -35px;right: -5px}.galleryviewthumbselect{display:inline-block;height:20px;width:20px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_viewmode.png) no-repeat 0px 0px}.galleryviewthumbselectactive{display:inline-block;height:20px;width:20px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_viewmode.png) no-repeat 0px -30px}.galleryviewlistselect{display:inline-block;height:20px;width:20px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_viewmode.png) no-repeat -28px 0px}.galleryviewlistselectactive{display:inline-block;height:20px;width:20px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/gallery/bt_viewmode.png) no-repeat -28px -30px}table.cocreatorvars{border-collapse:collapse;width:640px}table.cocreatorvars
+.cocreatorvar{background-color:#eff2fa}table.cocreatorvars
+tr{border-bottom:12px solid white}table.cocreatorvars
+textarea{height:42px;width:137px}table.cocreatorvars
+input.variable_label{margin-left:10px;margin-right:10px;width:120px}table.cocreatorvars
+input.numeric{text-align:right}table.cocreatorvars
+.variable_type{width:110px;margin-right:45px}table.cocreatorvars
+td{padding-top:15px;padding-bottom:10px}a.btAddRow{width:29px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/button_field_add.png) no-repeat left top;margin-right:5px;margin-left:5px;cursor:pointer}a.btAddRow:hover{width:29px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/button_field_add.png) no-repeat left -30px}a.btAddRow:focus,a.btAddRow:active{width:29px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/button_field_add.png) no-repeat left -30px}a.btAddRow
+span{display:none}#cocreatorvars
+.btDelete2{display:block;float:right;margin:0
+13px 0 0;cursor:pointer;width:16px;height:16px;background:url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat left top}#cocreatorvars .btDelete
+span{display:none}#cocreatorvars
+.btDelete{cursor:pointer;display:block;float:right;margin:7px
+10px 0 10px;width:16px;height:16px;background:url(/web/20101003040035/http://www.shapeways.com/img/bin_closed.png) no-repeat left top}#cocreatorvars .btDelete2
+span{display:none}input.drvalues{margin:5px
+7px 0px 0px;width:101px}input.rdvalues{margin:5px
+7px 0px 5px;width:81px}#cocreatorvars .cocreatortype div#drValuesContainer,#cocreatorvars .cocreatortype
+div#drdValuesContainer{width:160px;_width:180px}#cocreatorvars
+.variable_obligatory{margin:0
+6px}#viewcategorieslist
+table{border-spacing:0 12px}#viewcategorieslist
+td.arrow{background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/listArrow.png) no-repeat 8px 8px;width:15px;height:26px}#viewcategorieslist
+td.arrowspacer{width:15px;height:26px}#viewcategorieslist
+td{width:120px;padding:5px
+0 7px 7px}#viewcategorieslist
+td.level1{background:#ecf1f5}#viewcategorieslist
+td.level2{background:#f2f5fa}#viewcategorieslist
+td.level3{background:#f8f9fd}#editcategories img, #viewcategories
+img{border:0}#sizeDisplay
+a{text-decoration:none;cursor:pointer}a.stbar.chicklet
+img{border:0;height:16px;width:16px;margin-right:3px;vertical-align:middle}a.stbar.chicklet{height:16px;line-height:16px}.rdadd{display:block;padding-top:8px}div.ctb{overflow:scroll;text-align:center;width:870px}#drValuesContainer a, #rdValuesContainer
+a{cursor:pointer}#rdExp{padding-left:23px;margin-top:10px;float:left}.categorycolumn{width:170px;float:left}.payment_status_confirm{display:block;float:left;top:4px}.img_confirm{float:left}.productInfo
+img{border:none}#expandcategory
+img{border:none}.btInfoShopTracking{background:url("/web/20101003040035/http://www.shapeways.com/img/shapeways/information.png") no-repeat scroll left top transparent;display:inline-block;height:16px;width:16px;margin-left:15px}.highslide-wrapper{z-index:6002}.highslide-loading{z-index:9992 !important}.highslide-dimming{background:black}.video .highslide-header ul li.highslide-previous,
+.video .highslide-header ul li.highslide-next ,
+.video .highslide-header ul li.highslide-close,
+.video .highslide-header ul li.highslide-move{display:none}.highslide
+img{border:0px
+!important}.MsgTable{table-layout:fixed}.CheckoutIcon{padding:0px;position:relative;top:5px;padding-right:10px}td.shipping1{width:160px;padding:3px
+13px 3px 13px}td.shipping2{width:310px;padding:3px
+13px 3px 13px}td.order_options_cell1{width:310px;padding:3px
+13px 3px 13px}.CheckoutTitle{background-color:#F5F9FC;font-size:12px;font-weight:bold;color:#0098db;padding:2px
+0px 8px 10px;border-bottom:1px solid #D9E6F4}table.order_options{margin-bottom:15px;width:630px;border-bottom:1px solid #D9E6F4}.checkout_change{background-color:#F5F9FC;font-size:12px;color:#0098db;padding:8px
+15px 8px 10px;border-bottom:1px solid #D9E6F4}.paymentContainer
+td{width:33%}table.shoppingcart
+td.title_white{font-weight:bold;padding-left:15px;padding-bottom:10px}td.cell1_white{width:330px;vertical-align:top;background-color:#fff;padding:13px}td.cell2_white{text-align:center;width:42px;border-left:1px solid #fff;vertical-align:top;background-color:#fff;padding:13px}td.cell3_white{width:172px;border-left:1px solid #fff;vertical-align:top;background-color:#fff;padding:13px}td.cell4_white{text-align:right;width:60px;border-left:1px solid #fff;vertical-align:top;background-color:#fff;padding:13px
+10px 13px 0px}td.cell2_white
+select{border:none;min-width:25px !important}.rmCheck{width:365px;padding:7px}.order_radio{vertical-align:middle;margin-right:6px;margin-bottom:2px}.material_info_tab_body
+img{width:99%}.mat_lightbox{width:660px;height:auto;border:dotted 1px #000;background-color:#FFF}.mat_lightbox_tabs{background-color:#EDF2F9;border-top:1px solid #D9E6F4}.mat_lightbox_left{vertical-align:top;padding-top:10px;padding-bottom:20px;padding-right:30px}.mat_lightbox_right{vertical-align:top;padding-top:10px;padding-bottom:20px;text-align:right}.mat_lightbox_bottomleft{text-align:left;padding:0px}.mat_lightbox_bottomright{text-align:right;padding:0px}.mat_lightbox_titleleft{padding:10px
+0px 5px 0px;text-align:left}.mat_lightbox_titleright{padding:10px
+0px 5px 0px;text-align:right}.gallerynavnext_inactive{display:inline-block;vertical-align:middle;width:19px;height:19px;margin:0
+0 0 5px;background:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/bt_navigation_inactive.png) -60px}.FilterReset{position:relative;top:-8px;left:-10px}.galleryviewselectorbutton_filter{position:static;margin-bottom:8px;top:2px;left:592px}#udFilterFoldOut{border-top:1px solid #D9E7F5;padding:0px}.FilterOpt{height:auto;position:relative;margin:0;padding-left:12px;padding-top:10px;width:113px;margin-bottom:25px;display:block;float:left;background-repeat:repeat-x;background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/tab_bg.jpg)}.FilterActive{height:135px;border-right:1px solid #fff;margin:0
+0 25px 0;padding-left:12px;padding-top:10px;background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/tab_bg_selected.jpg);background-repeat:repeat-x}.FilterOpt
+li{line-height:170%;list-style-image:none;list-style:none;margin-left:0px}.FilterOpt
+a{margin-right:4px}#border_orange{padding:5px;color:#0098db;-moz-border-radius:5px;-webkit-border-radius:5px;border:1px
+solid #F99F20}.filterPers{vertical-align:middle;margin-right:6px;margin-bottom:2px}#udFilter{width:100%;height:25px}#existing_address1{padding:5px
+0px 15px 10px}#existing_address2{padding:5px
+0px 15px 10px}.OrderTitle{background-color:#F5F9FC;font-size:12px;font-weight:bold;color:#0098db;padding:8px
+0px 8px 10px;border-bottom:1px solid #D9E6F4}.Steps{width:870px;padding:10px
+10px 10px 0px;height:auto;margin-bottom:5px}#Block50{width:425px;height:auto;float:left}.leftBlock{margin-right:20px}#udHeaderClear{position:relative;width:948px;height:118px;background:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/header_clear.gif) no-repeat left top}.field50_label{font-weight:bold;width:160px;padding:10px}.field50_input{width:365px;padding:7px}.field50_input
+#country{width:200px}.field50_input
+input{width:100%}.countrydropdown dd, .countrydropdown dt, .countrydropdown
+ul{margin:0px;padding:0px}.countrydropdown
+dd{position:relative}.countrydropdown a, .countrydropdown a:visited{color:#545454;text-decoration:none;outline:none}.countrydropdown a:hover{color:#545454}.countrydropdown dt a:hover{color:#545454;border:1px
+solid #BDC0C8}.countrydropdown dt
+img{padding-left:5px}.countrydropdown dt
+a{background:#fff url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/country_arrow_down.png) no-repeat scroll right center;display:block;padding-right:20px;border:1px
+solid #CCC;width:100%}.countrydropdown dt
+a{cursor:pointer;display:block;padding:3px
+0px 3px 0px}.countrydropdown dd
+ul{background:#f3f3f3 none repeat scroll 0 0;border:1px
+solid #BDC0C8;color:#C5C0B0;left:0px;padding:5px
+0px;position:absolute;top:2px;width:100%;list-style:none}.countrydropdown
+span.value{display:none}.countrydropdown dd ul li
+a{padding:5px;display:block}.countrydropdown dd ul li a:hover{background-color:#fff}.countrydropdown
+img.flag{border:none;vertical-align:middle;margin-right:10px;margin-top:-2px}td.PersOptions{font-size:12px;vertical-align:top;background-color:#fff;border-left:#D9E6F4 1px solid;border-right:#D9E6F4 1px solid;padding:2px
+0px 2px 15px}#PersOptions_FoldOut{padding:14px;height:auto;width:600px;position:relative;margin-top:-15px;margin-bottom:14px;display:block;float:left;background-repeat:repeat-x;background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/tab_bg.jpg);border-bottom:1px solid #D9E6F4;border-left:#D9E6F4 1px solid;border-right:#D9E6F4 1px solid}#PersOptions_FoldOut
+img{width:50px}.CartChecked{line-height:170%;list-style-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/check.png")}.ContinueShopping{list-style-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/arrow_back_blue.png")}.cart_country{margin:10px
+0 10px 0px;display:block}.cart_country
+img{margin-right:10px}table.shoppingcart{margin-bottom:15px;width:630px;border-bottom:1px solid #D9E6F4}td.cell1{width:330px;vertical-align:top;background-color:#F5F9FC;padding:13px}td.cell2{text-align:center;width:42px;border-left:1px solid #fff;vertical-align:top;background-color:#F5F9FC;padding:13px}td.cell3{width:172px;border-left:1px solid #fff;vertical-align:top;background-color:#F2F6FB;padding:13px}td.cell4{text-align:right;width:60px;border-left:1px solid #fff;vertical-align:top;background-color:#F2F6FB;padding:13px
+10px 13px 0px}td.cell5{text-align:center;width:26px;border-left:1px solid #fff;vertical-align:top;background-color:#F5F9FC;padding:13px
+5px}.cart_product{background-color:#fff;padding:4px;border:1px
+solid #B8BDC6;float:left;margin-right:10px;width:107px}td.cell2
+select{border:none;min-width:25px !important}table.shoppingcart
+td.title{padding-bottom:10px;font-weight:bold}.addSelector{width:140px}.otherModels_mdp{float:right;height:334px;margin:0;width:150px;overflow-y:scroll;overflow-x:hidden}.modelDetailTable .otherModels_mdp
+img{padding:0;border:none;width:100px}.otherModels_mdp a.photoLink,
+.otherModels_mdp a.photoLinkwoMargin,
+.otherModels_mdp a.photoLink:visited,
+.otherModels_mdp a.photoLinkwoMargin:visited{display:block;padding:5px;background:#FFF;margin:0
+0 10px 0;border:1px
+solid #dadfe5}.otherModels_mdp
+.preview{height:auto !important}.mdp_thumbs{height:auto !important;margin-bottom:13px;display:block;border:1px
+solid #DFE3E8;padding:4px}#mat_hover:hover{cursor:pointer;margin:-3px;border:solid 3px #D9E7F5;border-collapse:collapse;border-spacing:0;box-shadow:10px 10px 5px #888}.mat_selectedIcon{position:absolute;left:132px;top:5px;width:25px;height:25px;background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/selected.png);background-repeat:no-repeat}.mat_infoIcon{position:absolute;left:5px;top:5px;width:25px;height:25px;background-image:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/information.png);background-repeat:no-repeat}.mat_block{position:relative;padding:0px;float:left;width:157px;height:155px}.selected{background-color:#EDF2F9}.mat_block
+img{border:3px
+solid #D9E7F5;margin-bottom:15px;margin-top:28px;text-align:center;float:none;display:block}.selected
+img{border:3px
+solid #BFD730}.mat_text{display:block;padding-left:18px}#navcontainer{width:632px;height:40px}ul#tabnav{margin:0
+!important;padding:0;list-style-type:none;list-style-image:none}ul#tabnav
+li{border-collapse:collapse;margin:0
+!important;list-style-image:none;float:left;width:157px;padding:11px
+0 12px;font-family:arial;text-align:center;font-size:12px;background-color:#EDF2F9;border-top:1px solid #D9E7F5;border-right:1px solid #D9E7F5;border-bottom:0px solid #D9E7F5}ul#tabnav li:last-child{border-collapse:collapse;border-right:none}#tabnav a, #tabnav a:link{color:#0098db;text-decoration:none}ul#tabnav
+li#active{background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/tab_bg.jpg);font-weight:bold;background-color:#fff}ul#tabnav li#active
+a{color:#545454}#tabnav li:hover{cursor:pointer;color:#0098db;background-color:#D9E7F5}.modelDetailMaterial{border-bottom:5px solid #d9e6f4;margin-bottom:15px}div.sharethis_mdp{margin-top:5px}div.sharethis_fav{margin-top:15px}.modelDetailTable .description p,
+.modelDetailTable #cocreator-template-variables
+p{font-size:1.0em}.modelphoto_mdp{}.otherModels_mdp{float:right;height:334px;margin-bottom:0;margin-left:0;margin-right:0;margin-top:0;background-color:#fff;width:135px;height:346px}photoholderbody_mdp{}.#thumb_mdp{width:482px}::selection{background:#0098db;color:#fff}::-moz-selection{background:#0098db;color:#fff}#udSearchPanel{height:17px;padding-bottom:0;padding-left:0;padding-right:12px;padding-top:3px;position:absolute;right:15px;text-align:right;top:31px;width:110px;z-index:9}.infobox_separator_mdp{border-bottom:2px solid #d9e6f4;margin:15px
+0 15px 0px}.mdp_material{margin:5px
+0px 5px 0px}.priceamount_mdp{font-size:1.3em;font-weight:bold}.price_euro_mdp{font-size:1.3em}.layoutPanel4{bottom-border:3px
+solid #000;padding-left:8px;padding-right:5px;padding-bottom:11px;margin-bottom:20px}.infobox_separator2{height:2px;color:#00000}.name{vertical-align:top;padding:10px
+5px 10px 0px;border-top:1px solid #edf3fa;border-collapse:collapse}#box-content-minor
+li{list-style-image:none}#box-content
+li{list-style-image:none}ul#categoryList
+li{list-style-image:none}.galleryviewselectorbutton{position:relative;margin-bottom:8px;top:2px;width:100%;text-align:right}.pijltje{background-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/small_arrow.gif");background-position:0 9px;background-repeat:no-repeat;line-height:25px;list-style-image:none;list-style-position:outside;list-style-type:none;margin-left:2%;padding-left:15px}.models
+img.searchpreview{margin-top:12px}#usernametakenTable{left:655px;position:absolute;right:0;top:44px;width:214px}#usernametakenTable
+h3{color:#0098db}.bannerPanel
+img{margin-top:5px}h1.modeldetailtitle{overflow:hidden;width:440px}#sizeDisplay a:hover{text-decoration:underline}.productInfo
+img{vertical-align:middle;padding:4px
+0px 4px;margin-right:4px}.productInfo a:hover{text-decoration:underline}.productInfo
+ul{margin-left:0px !important}.productInfo
+li{line-height:160%;list-style-image:none !important;list-style:none !important}div.sharethis{float:right;left:308px;padding-top:10px;position:absolute}#divQuickOrder{width:240px}.detailrating{padding-left:0px}.favorite_gallery{background-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/thumb_shade.png");background-repeat:no-repeat;background-position:center bottom;color:#B6BFC3;height:178px}.favorite_gallery
+img{border-bottom:5px #545454 solid;border-top:none;border-left:none;border-right:none}.favorite_line{border-bottom:1px dotted #a3a3a3;padding-bottom:5px}.favorite_designer{background-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/designer_off.png");background-repeat:none}#photoDescription{width:300px}#udSearch{position:static;width:588px;background-color:#EDF2F9;border:solid 1px #D9E7F5;margin:1px
+0px 14px 0px;padding:10px
+20px 26px 20px;height:25px}#udSearch
+.searchbox{width:232px}#udSearch
+.categoryselect{width:120px}input{outline:none;transition:all 0.25s ease-in-out;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;color:#545454}input:focus{box-shadow:0 0 5px rgba(191, 215, 48, 1);-webkit-box-shadow:0 0 5px rgba(191, 215, 48, 1);-moz-box-shadow:0 0 5px rgba(191, 215, 48, 1);border:1px
+solid rgba(191, 215, 48, 1)}.aboutbtTitle
+h2{border-bottom:1px #D9E7F5 solid;text-shadow:#D9E6F4 1px 1px 1px;position:absolute;top:-52px;width:220px;color:#0098db;font-size:24px;margin-bottom:0px;margin-left:0px;margin-right:0;margin-top:0;padding-bottom:10px;padding-left:0x;padding-top:6px}.aboutbt{height:21px;margin:0px
+0px 2px 0px;padding:8px
+5px 8px 10px;display:block;background-color:#f8f8f8;text-decoration:none;font-size:14px}.aboutbt:hover{background-position:center;text-shadow:#FFF 0px 0px 10px;background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/button_hover.gif);background-repeat:repeat-x;text-decoration:none}.aboutoranje:hover{color:#f99f20}.aboutturq:hover{color:#00b3b5}.aboutgreen:hover{color:#bfd730}.aboutblauw:hover{color:#005bbb}.aboutbt:visited{text-decoration:none}#photoDescription{padding-left:0px}.modelDetailTable #titleIcon.cocreator-template{-moz-background-clip:border;-moz-background-origin:padding;-moz-background-size:auto auto;background-attachment:scroll;background-color:transparent;background-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/wrenchkey.png");background-position:left center;background-repeat:no-repeat;float:left;height:46px;vertical-align:top;margin-right:10px;width:30px}.alphacube_content
+div.rating{font-size:10pt;padding-bottom:15px;padding-left:5px}.models .results
+td{padding:8px
+8px 8px 5px}h2,h4{color:#0098db;font-size:1.4em;padding-bottom:15px}.pluginTable a.title, .pluginTable a.title:visited{color:#0098DB;font-weight:normal;text-decoration:none}.pluginTable a.title:hover{color:#0098DB;font-weight:normal;text-decoration:underline}.layoutPanel1,.layoutPanel2,.layoutLightBlue{border:solid 1px #D9E7F5;padding-left:8px;padding-right:5px;padding-bottom:11px;margin-bottom:20px}.layoutPanel1 h2,
+.layoutPanel2 h2,
+.layoutLightBlue
+h2{background-color:#EDF2F9;border-bottom:#D9E7F5 3px solid;color:#404040;font-size:1.0em;font-weight:bold;margin-bottom:10px;margin-left:-8px;margin-right:-5px;margin-top:0px;padding-bottom:5px;padding-left:8px;padding-top:6px}.layoutLightBlue a,
+.layoutLightBlue a:visited{color:#0098db}.footertop{height:20px;border-top:none;margin-left:17px;margin-right:17px}.footer{border-top-color:#D9E7F5;border-top-style:solid;border-top-width:5px;color:#252F47;font-size:12px !important;margin-bottom:0;margin-left:17px;margin-right:17px;margin-top:0;padding-bottom:17px;padding-left:0;padding-right:0;padding-top:10px;text-align:center}.footer
+a{text-decoration:none !important;color:#0098db !important}.footer a:visited{text-decoration:none !important;color:#0098db !important}.footer a:hover{text-decoration:underline !important;color:#0098db !important}.cartTable
+label.grey{color:#545454}.cartTable
+td.vat{color:#545454}.shopcontentDiv4
+h3{padding-left:0px}.blue{background:#f6f9fc}.cartTable
+td{background-color:#f6f9fc}h1{text-shadow:#D9E6F4 1px 1px 1px}.layoutDefaultBorder
+.content{border-bottom-color:#D9E6F4;border-bottom-style:solid;border-bottom-width:5px;padding-bottom:20px;padding-left:0;padding-right:0;padding-top:0}a,a:visited{color:#0098db;text-decoration:none;outline:none}a:hover{text-decoration:underline}a:active{text-decoration:underline}.udLeft75_homepage{position:relative;width:220px;float:left;padding:0}.udRight25_homepage{width:630px;float:right;margin:0
+0 10px 0;padding:0}.layoutLight{background:#f2f2f2;background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/index/block_bg.gif);background-repeat:repeat-y;padding:5px
+10px 0px 10px;margin-bottom:20px;color:#6a6c71;border-top:solid 5px #d9e7f5}.layoutLight
+h2{color:#0098db;font-size:1.2em;font-weight:normal;padding:0
+0 5px 0;margin:0}.layoutLight a,
+.layoutLight a:visited{color:#0098db}html{overflow-y:scroll;overflow-x:hidden}li{list-style-image:url("/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/small_arrow.gif")}body{color:#545454}.printedmodelslinks{display:block;float:right;margin: -26px 0px 0 0;cursor:pointer}.bestnewlinks{display:block;float:right;margin: -26px 0px 0 0;cursor:pointer}.highslide
+img{color:#fff}.highslide img:hover{color:#D9E7F5}#materials-index{}.material-single{border:5px
+solid #e0edf6;background:#fff;width:200px;margin:0px
+10px 11px 0px;float:left}.material-single-last{margin:0px
+0px 11px 0px}div.material-info{height:17em}div.material-image{text-align:center}div.material-image
+img{border:0px}.material-single
+h3{font-weight:bold;color:#0198DB;font-size:12px;margin-left:7px;text-shadow:#d2d2d2 1px 1px 1px}.material-single
+p{margin-left:7px}.material-pricing{border:0px
+dashed fuchsia;height:30px;margin:5px
+0px 7px 7px}.material-price-label{font-size:80%;float:left;width:54px}.material-price{display:block;font-weight:bolder;color:black;float:left;width:54px;clear:left}.material-pricing
+a{display:block;float:right;background:transparent url(/web/20101003040035/http://www.shapeways.com/topics/udesign/materials/index/button_more_2.gif) no-repeat scroll left top;width:130px;height:31px;margin-right:7px}.material-pricing a
+span{display:none}.material-clear{clear:both}#material-summary{border:1px
+dotted #7fcdeb;margin:0
+0 15px 0;overflow:auto;width:100%}#material-summary
+img{float:right;margin:0px
+10px 0px 20px}#material-summary
+h2{font-weight:bold;color:#0098db;font-size:12px;margin:14px
+0 0 14px;text-shadow:#d2d2d2 1px 1px 1px}#material-summary
+span{font-weight:bold;color:#545454;margin:0
+0 0 14px}#material-summary
+p{margin:14px
+0 14px 14px}#material-summary
+hr{clear:both;visibility:hidden}a#material-back{position:absolute;margin-top:-39px;right:0px;text-align:right;cursor:pointer}#faqQuestions
+.faqQuestion{border-bottom:1px solid #e5eef8;padding:8px
+0 8px 0}#faqQuestions .faqQuestion a, #faqQuestions .faqQuestion a:visited{padding-left:0px}a.btSearch3{width:85px;background:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/bt_search3.gif) no-repeat left top}a.btSearch3:hover{width:85px;background:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/bt_search3.gif) no-repeat -85px top}a.btSearch3:focus,a.btSearch2:active{width:85px;background:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/bt_search3.gif) no-repeat -170px top}a.btSearch3
+span{display:none}.buttonnew{border:1px
+solid #f3f3f3;display:inline-block;text-transform:capitalize;outline:none;cursor:pointer;text-align:center;text-decoration:none !important;font:12px Arial, Helvetica, sans-serif;font-weight:bold;padding: .4em 1.1em .45em;text-shadow:0 -1px 1px rgba(0, 0, 0, .2);-webkit-border-radius: .3em;-moz-border-radius: .3em;border-radius: .3em;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, .2);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, .2);box-shadow:0 1px 2px rgba(0, 0, 0, .2);margin:5px
+0px 10px 0px}.buttonnew:hover{text-decoration:none}.buttonnew:active{position:relative;top:1px}.medium{-webkit-border-radius: .3em;-moz-border-radius: .3em;font-weight:bold;font-size:11px;padding: .3em 1.0em .35em}.smallgallery{-moz-border-radius-bottomleft:0.5em;-moz-border-radius-bottomright:0.5em;-moz-border-radius-topleft:0.5em;-moz-border-radius-topright:0.5em;font-size:9px;padding-bottom:0.5em;padding-left:1.0em;padding-right:1.0em;padding-top:0.5em}.tip{text-transform:lowercase;font-size:11px;padding:0.1em 0.4em 0.1em 0.4em}.green{color:#fff !important;background:#B6D64D;background: -webkit-gradient(linear, left top, left bottom, from(#B6D64D), to(#99C63E));background: -moz-linear-gradient(top, #B6D64D, #99C63E);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#B6D64D', endColorstr = '#99C63E')}.green:hover{color:#fff !important;background:#99C63E;background: -webkit-gradient(linear, left top, left bottom, from(#b2d34a), to(#99C63E));background: -moz-linear-gradient(top, #b2d34a, #B6D64D);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#b2d34a', endColorstr = '#B6D64D')}.green:active{color:#fff !important;background: -webkit-gradient(linear, left top, left bottom, from(#B6D64D), to(#99C63E));background: -moz-linear-gradient(top, #B6D64D, #99C63E);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#B6D64D', endColorstr = '#99C63E')}.green:visited{color:#fff !important}.gray{font-size:12px;padding: .3em 1.1em .35em;margin-right:10px;color:#0098db;text-shadow:none;background:#fff;background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3))!important;background: -moz-linear-gradient(top, #ffffff, #f3f3f3)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f3f3f3')!important}.gray:hover{background:#fff!important;background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#ffffff));background: -moz-linear-gradient(top, #f3f3f3, #ffffff);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f3f3f3', endColorstr = '#ffffff')}.gray:active{color:#0098db;background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3));background: -moz-linear-gradient(top, #ffffff, #f3f3f3);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f3f3f3')}.blauw2{color:#fff;background:#0098db;background: -webkit-gradient(linear, left top, left bottom, from(#0098db), to(#0C75C7));background: -moz-linear-gradient(top, #0098db, #0C75C7);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0098db', endColorstr = '#0C75C7')}.blauw2:hover{background:#0C75C7;background: -webkit-gradient(linear, left top, left bottom, from(#0C75C7), to(#0098db));background: -moz-linear-gradient(top, #0C75C7, #0098db);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0C75C7', endColorstr = '#0098db')}.blauw2:active{color:#fff;background: -webkit-gradient(linear, left top, left bottom, from(#0098db), to(#0C75C7));background: -moz-linear-gradient(top, #0098db, #0C75C7);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0098db', endColorstr = '#0C75C7')}.blauw2:visited{color:#fff}.buttonnew
+span.ok{background-image:url(/web/20101003040035/http://www.shapeways.com/styles/tick.png) !important;background-repeat:no-repeat;position:relative;padding-left:20px;left: -2px}.medium
+span.ok{padding-top:3px}.buttonnew
+span.bin{background-image:url(/web/20101003040035/http://www.shapeways.com/styles/bin.png) !important;background-repeat:no-repeat;position:relative;padding-left:20px;left: -2px}.medium
+span.bin{padding-top:4px}.buttonnew
+span.cart_add{background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/cart.png) !important;background-repeat:no-repeat;position:relative;padding-left:20px;left: -2px}.medium
+span.cart_add{padding-top:4px}.buttonnew
+span.next_proceed{background-image:url(/web/20101003040035/http://www.shapeways.com/topics/udesign/files/images/arrow_next.png) !important;background-repeat:no-repeat;position:relative;padding-left:20px;left: -5px}.medium
+span.next_proceed{padding-top:4px}a.btBlog{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_blog.gif) no-repeat left top}a.btBlog:hover{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_blog.gif) no-repeat -105px top}a.btBlog:focus,a.btBlog:active{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_blog.gif) no-repeat -210px top}a.btBlog
+span{display:none}a.btForum{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_forum.gif) no-repeat left top}a.btForum:hover{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_forum.gif) no-repeat -105px top}a.btForum:focus,a.btForum:active{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_forum.gif) no-repeat -210px top}a.btForum
+span{display:none}a.btBacktoforum{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_backtoforum.gif) no-repeat left top}a.btBacktoforum:hover{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_backtoforum.gif) no-repeat -105px top}a.btBacktoforum:focus,a.btBacktoforum:active{width:105px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_backtoforum.gif) no-repeat -210px top}a.btBacktoforum
+span{display:none}a.btGettingStarted{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gettingstarted.gif) no-repeat left top}a.btGettingStarted:hover{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gettingstarted.gif) no-repeat -150px top}a.btGettingStarted:focus,a.GettingStarted:active{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gettingstarted.gif) no-repeat -300px top}a.btGettingStarted
+span{display:none}a.btInstallJava{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_installjava.gif) no-repeat left top}a.btInstallJava:hover{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_installjava.gif) no-repeat -150px top}a.btInstallJava:focus,a.btInstallJava:active{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_installjava.gif) no-repeat -300px top}a.btInstallJava
+span{display:none}a.btInfo{display:block;width:16px;height:16px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/information.png) no-repeat left top}a.btInfo
+span{display:none}a.btCreator{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_creator.gif) no-repeat left top}a.btCreator:hover{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_creator.gif) no-repeat -150px top}a.btCreator:focus,a.btCreator:active{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_creator.gif) no-repeat -300px top}a.btCreator
+span{display:none}a.btUpload:hover{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_upload.gif) no-repeat -150px top}a.btUpload:focus,a.btUpload:active{width:150px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_upload.gif) no-repeat -300px top}a.btUpload
+span{display:none}a.btLocked{display:block;width:20px;height:24px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/locked.jpg) no-repeat left top}a.btLocked
+span{display:none}a.btModelTab{width:124px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gallery_models.jpg) no-repeat left top;float:left}a.btModelTab.disabled:hover{width:124px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gallery_models.jpg) no-repeat left top}a.btModelTab
+span{display:none}a.btShopTab{width:128px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gallery_shops.jpg) no-repeat left top;float:left}a.btShopTab.disabled:hover{width:128px;background:url(/web/20101003040035/http://www.shapeways.com/img/shapeways/bt_gallery_shops.jpg) no-repeat left top}a.btShopTab
+span{display:none}.bt_moredetails1{margin-right:10px}.btInfoyoutube{background:url("/web/20101003040035/http://www.shapeways.com/img/shapeways/information.png") no-repeat scroll left top transparent;display:inline-block;height:16px;width:16px;margin-left:15px}.prototip{font:11px Arial, Helvetica, sans-serif;color:#000}.prototip
+.default{width:250px;color:#808080}.prototip .default
+.toolbar{background:#f1f1f1;font-weight:bold}.prototip .default
+.title{padding:5px}.prototip .default
+.content{padding:5px;background:#fff}.prototip
+.basic{width:250px;color:#808080}.prototip .basic
+.toolbar{background:#f1f1f1;font-weight:bold}.prototip .basic
+.title{padding:5px}.prototip .basic
+.content{padding:5px;background:#fff}.prototip
+.hint{width:250px;color:#313120;background:#fff6aa}.prototip .hint
+.toolbar{background:#fdf1a0;font-weight:bold}.prototip .hint .title,
+.prototip .hint
+.content{padding:5px}.prototip
+.protoblue{width:250px;color:#fff}.prototip .protoblue
+.toolbar{background:#0d7cd0;font-weight:bold}.prototip .protoblue
+.title{padding:5px}.prototip .protoblue
+.content{background:#1e90ff;padding:5px}.prototip
+.creamy{width:250px;color:#bb9c61}.prototip .creamy
+.toolbar{background:#f3edc2;font-weight:bold}.prototip .creamy
+.title{padding:5px}.prototip .creamy
+.content{background:#f8f4ca;padding:5px}.prototip
+.darkgrey{width:250px;color:#fff}.prototip .darkgrey
+.toolbar{background:#5f5f5f;font-weight:bold}.prototip .darkgrey
+.title{padding:5px}.prototip .darkgrey
+.content{background:#808080;padding:5px}.prototip
+.protogrey{width:250px;color:#fff;background:#fff}.prototip .protogrey
+.toolbar{background:#969c92;font-weight:bold}.prototip .protogrey
+.title{padding:5px}.prototip .protogrey
+.content{color:#808080;padding:5px}.prototip .protogrey .toolbar
+.close{width:14px;height:14px}.prototipLoader{position:absolute;top: -1000px;left: -1000px;height:14px;width:14px;border:1px
+solid #ddd;overflow:hidden}.prototip
+.shapeways{width:250px;color:#fff;background:#fff}.prototip .shapeways
+.toolbar{background:#969c92;font-weight:bold}.prototip .shapeways
+.title{padding:5px}.prototip .shapeways
+.content{color:#808080;padding:10px
+15px 10px 15px}.prototip .shapeways .content
+a{text-decoration:none}.prototip .shapeways .toolbar
+.close{width:14px;height:14px}.prototip{position:absolute;overflow:hidden}.prototip .tooltip,.prototip .toolbar,.prototip .toolbar
+.title{position:relative}.prototip
+.content{clear:both}.prototip .toolbar
+.close{position:relative;text-decoration:none;float:right;width:19px;height:15px;display:block;line-height:0;font-size:0;border:0;cursor:pointer}.prototip
+.tooltip{clear:both;float:left}.prototip .borderLeftWrapper,.prototip
+.borderRightWrapper{position:absolute;top:0;left:0;width:300px;height:20px}.prototip
+.borderFrame{height:100%;width:100%;float:left;margin:0;padding:0;position:relative}.prototip .borderTop,.prototip
+.borderBottom{overflow:hidden}.prototip
+.borderRow{list-style-type:none;float:left;width:100%;position:relative;clear:both;margin:0;padding:0}.prototip_CornerWrapper{position:absolute;top:0;left:0;width:100%;height:100%;margin:0;padding:0;clear:both}.prototip_Corner{float:left;position:relative}.prototip
+canvas{position:relative;float:left}.prototip_CornerTr,.prototip_CornerBr{float:right}.prototip_BetweenCorners{position:absolute;top:0;left:0;width:100%;overflow:hidden;clear:both}.prototip
+.borderMiddle{position:relative;float:left}.prototip
+.borderCenter{position:relative;float:left;height:100%}.prototip_StemWrapper{position:relative;width:100%;height:auto;clear:both}.prototip_StemBox{float:left;position:relative}.prototip_Stem{width:100%;position:absolute;overflow:hidden}.iframeShim{position:absolute;border:0;margin:0;padding:0;background:none;overflow:hidden}.prototip .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.prototip
+.clearfix{display:inline-block}/*\*/.prototip
+.clearfix{display:block}/**/.highslide-container
+div{font-family:Verdana,Helvetica;font-size:10pt}.highslide-container
+table{background:none}.highslide{outline:none;text-decoration:none}.highslide
+img{border:2px
+solid silver}.highslide:hover
+img{border-color:gray}.highslide-active-anchor
+img{visibility:hidden}.highslide-gallery .highslide-active-anchor
+img{border-color:black;visibility:visible;cursor:default}.highslide-image{border-width:2px;border-style:solid;border-color:white}.highslide-wrapper,.highslide-outline{background:white}.glossy-dark{background:#111}.highslide-image-blur{}.highslide-number{font-weight:bold;color:gray;font-size: .9em}.highslide-caption{display:none;font-size:1em;padding:5px}.highslide-heading{display:none;font-weight:bold;margin:0.4em}.highslide-dimming{background:black}a.highslide-full-expand{background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/fullexpand.gif) no-repeat;display:block;margin:0
+10px 10px 0;width:34px;height:34px}.highslide-loading{display:block;color:black;font-size:9px;font-weight:bold;text-transform:uppercase;text-decoration:none;padding:3px;border:1px
+solid white;background-color:white;padding-left:22px;background-image:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/loader.white.gif);background-repeat:no-repeat;background-position:3px 1px}a.highslide-credits,
+a.highslide-credits
+i{padding:2px;color:silver;text-decoration:none;font-size:10px}a.highslide-credits:hover,
+a.highslide-credits:hover
+i{color:white;background-color:gray}.highslide-move, .highslide-move
+*{cursor:move}.highslide-viewport{display:none;position:fixed;width:100%;height:100%;z-index:1;background:none;left:0;top:0}.highslide-overlay{display:none}.hidden-container{display:none}.closebutton{position:relative;top: -15px;left:15px;width:30px;height:30px;cursor:pointer;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/close.png)}.highslide-gallery
+ul{list-style-type:none;margin:0;padding:0}.highslide-gallery ul
+li{display:block;position:relative;float:left;width:106px;height:106px;border:1px
+solid silver;background:#ededed;margin:2px;line-height:0;overflow:hidden}.highslide-gallery ul
+a{position:absolute;top:50%;left:50%}.highslide-gallery ul
+img{position:relative;top: -50%;left: -50%}html>/**/body .highslide-gallery ul
+li{display:table;text-align:center}html>/**/body .highslide-gallery ul
+li{text-align:center}html>/**/body .highslide-gallery ul
+a{position:static;display:table-cell;vertical-align:middle}html>/**/body .highslide-gallery ul
+img{position:static}.highslide-controls{width:195px;height:40px;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-white.gif) 0 -90px no-repeat;margin:20px
+15px 10px 0}.highslide-controls
+ul{position:relative;left:15px;height:40px;list-style:none;margin:0;padding:0;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-white.gif) right -90px no-repeat}.highslide-controls
+li{float:left;padding:5px
+0;margin:0;list-style:none}.highslide-controls
+a{background-image:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-white.gif);display:block;float:left;height:30px;width:30px;outline:none}.highslide-controls
+a.disabled{cursor:default}.highslide-controls a.disabled
+span{cursor:default}.highslide-controls a
+span{display:none;cursor:pointer}.highslide-controls .highslide-previous
+a{background-position:0 0}.highslide-controls .highslide-previous a:hover{background-position:0 -30px}.highslide-controls .highslide-previous
+a.disabled{background-position:0 -60px !important}.highslide-controls .highslide-play
+a{background-position: -30px 0}.highslide-controls .highslide-play a:hover{background-position: -30px -30px}.highslide-controls .highslide-play
+a.disabled{background-position: -30px -60px !important}.highslide-controls .highslide-pause
+a{background-position: -60px 0}.highslide-controls .highslide-pause a:hover{background-position: -60px -30px}.highslide-controls .highslide-next
+a{background-position: -90px 0}.highslide-controls .highslide-next a:hover{background-position: -90px -30px}.highslide-controls .highslide-next
+a.disabled{background-position: -90px -60px !important}.highslide-controls .highslide-move
+a{background-position: -120px 0}.highslide-controls .highslide-move a:hover{background-position: -120px -30px}.highslide-controls .highslide-full-expand
+a{background-position: -150px 0}.highslide-controls .highslide-full-expand a:hover{background-position: -150px -30px}.highslide-controls .highslide-full-expand
+a.disabled{background-position: -150px -60px !important}.highslide-controls .highslide-close
+a{background-position: -180px 0}.highslide-controls .highslide-close a:hover{background-position: -180px -30px}.highslide-maincontent{display:none}.highslide-html{background-color:white}.highslide-html-content{display:none;width:400px;padding:0
+5px 5px 5px}.highslide-header{padding-bottom:5px}.highslide-header
+ul{margin:0;padding:0;text-align:right}.highslide-header ul
+li{display:inline;padding-left:1em}.highslide-header ul li.highslide-previous, .highslide-header ul li.highslide-next{display:none}.highslide-header
+a{font-weight:bold;color:gray;text-transform:uppercase;text-decoration:none}.highslide-header a:hover{color:black}.highslide-header .highslide-move
+a{cursor:move}.highslide-footer{height:16px}.highslide-footer .highslide-resize{display:block;float:right;margin-top:5px;height:11px;width:11px;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/resize.gif) no-repeat}.highslide-footer .highslide-resize
+span{display:none}.highslide-body{}.highslide-resize{cursor:nw-resize}.draggable-header .highslide-header{height:18px;border-bottom:1px solid #ddd}.draggable-header .highslide-heading{position:absolute;margin:2px
+0.4em}.draggable-header .highslide-header .highslide-move{cursor:move;display:block;height:16px;position:absolute;right:24px;top:0;width:100%;z-index:1}.draggable-header .highslide-header .highslide-move
+*{display:none}.draggable-header .highslide-header .highslide-close{position:absolute;right:2px;top:2px;z-index:5;padding:0}.draggable-header .highslide-header .highslide-close
+a{display:block;height:16px;width:16px;background-image:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/closeX.png)}.draggable-header .highslide-header .highslide-close a:hover{background-position:0 16px}.draggable-header .highslide-header .highslide-close
+span{display:none}.draggable-header .highslide-maincontent{padding-top:1em}.titlebar .highslide-header{height:18px;border-bottom:1px solid #ddd}.titlebar .highslide-heading{position:absolute;width:90%;margin:1px
+0 1px 5px;color:#666}.titlebar .highslide-header .highslide-move{cursor:move;display:block;height:16px;position:absolute;right:24px;top:0;width:100%;z-index:1}.titlebar .highslide-header .highslide-move
+*{display:none}.titlebar .highslide-header
+li{position:relative;top:3px;z-index:2;padding:0
+0 0 1em}.titlebar .highslide-maincontent{padding-top:1em}.no-footer .highslide-footer{display:none}.wide-border{background:white}.wide-border .highslide-image{border-width:10px}.wide-border .highslide-caption{padding:0
+10px 10px 10px}.borderless .highslide-image{border:none}.borderless .highslide-caption{border-bottom:1px solid white;border-top:1px solid white;background:silver}.outer-glow{background:#444}.outer-glow .highslide-image{border:5px
+solid #444}.outer-glow .highslide-caption{border:5px
+solid #444;border-top:none;padding:5px;background-color:gray}.colored-border{background:white}.colored-border .highslide-image{border:2px
+solid green}.colored-border .highslide-caption{border:2px
+solid green;border-top:none}.dark{background:#111}.dark .highslide-image{border-color:black black #202020 black;background:gray}.dark .highslide-caption{color:white;background:#111}.dark .highslide-controls,
+.dark .highslide-controls ul,
+.dark .highslide-controls
+a{background-image:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-black-border.gif)}.floating-caption .highslide-caption{position:absolute;padding:1em
+0 0 0;background:none;color:white;border:none;font-weight:bold}.controls-in-heading .highslide-heading{color:gray;font-weight:bold;height:20px;overflow:hidden;cursor:default;padding:0
+0 0 22px;margin:0;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/icon.gif) no-repeat 0 1px}.controls-in-heading .highslide-controls{width:105px;height:20px;position:relative;margin:0;top: -23px;left:7px;background:none}.controls-in-heading .highslide-controls
+ul{position:static;height:20px;background:none}.controls-in-heading .highslide-controls
+li{padding:0}.controls-in-heading .highslide-controls
+a{background-image:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-white-small.gif);height:20px;width:20px}.controls-in-heading .highslide-controls .highslide-move{display:none}.controls-in-heading .highslide-controls .highslide-previous
+a{background-position:0 0}.controls-in-heading .highslide-controls .highslide-previous a:hover{background-position:0 -20px}.controls-in-heading .highslide-controls .highslide-previous
+a.disabled{background-position:0 -40px !important}.controls-in-heading .highslide-controls .highslide-play
+a{background-position: -20px 0}.controls-in-heading .highslide-controls .highslide-play a:hover{background-position: -20px -20px}.controls-in-heading .highslide-controls .highslide-play
+a.disabled{background-position: -20px -40px !important}.controls-in-heading .highslide-controls .highslide-pause
+a{background-position: -40px 0}.controls-in-heading .highslide-controls .highslide-pause a:hover{background-position: -40px -20px}.controls-in-heading .highslide-controls .highslide-next
+a{background-position: -60px 0}.controls-in-heading .highslide-controls .highslide-next a:hover{background-position: -60px -20px}.controls-in-heading .highslide-controls .highslide-next
+a.disabled{background-position: -60px -40px !important}.controls-in-heading .highslide-controls .highslide-full-expand
+a{background-position: -100px 0}.controls-in-heading .highslide-controls .highslide-full-expand a:hover{background-position: -100px -20px}.controls-in-heading .highslide-controls .highslide-full-expand
+a.disabled{background-position: -100px -40px !important}.controls-in-heading .highslide-controls .highslide-close
+a{background-position: -120px 0}.controls-in-heading .highslide-controls .highslide-close a:hover{background-position: -120px -20px}.text-controls .highslide-controls{width:auto;height:auto;margin:0;text-align:center;background:none}.text-controls
+ul{position:static;background:none;height:auto;left:0}.text-controls .highslide-move{display:none}.text-controls
+li{background-image:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-text-buttons.png);background-position:right top !important;padding:0;margin-left:15px;display:block;width:auto}.text-controls
+a{background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-text-buttons.png) no-repeat;background-position:left top !important;position:relative;left: -10px;display:block;width:auto;height:auto;text-decoration:none !important}.text-controls a
+span{background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/controlbar-text-buttons.png) no-repeat;margin:1px
+2px 1px 10px;display:block;min-width:4em;height:18px;line-height:18px;padding:1px
+0 1px 18px;color:#333;font-family:"Trebuchet MS",Arial,sans-serif;font-size:12px;font-weight:bold;white-space:nowrap}.text-controls .highslide-next{margin-right:1em}.text-controls .highslide-full-expand a
+span{min-width:0;margin:1px
+0;padding:1px
+0 1px 10px}.text-controls .highslide-close a
+span{min-width:0}.text-controls a:hover
+span{color:black}.text-controls a.disabled
+span{color:#999}.text-controls .highslide-previous
+span{background-position:0 -40px}.text-controls .highslide-previous
+a.disabled{background-position:left top !important}.text-controls .highslide-previous a.disabled
+span{background-position:0 -140px}.text-controls .highslide-play
+span{background-position:0 -60px}.text-controls .highslide-play
+a.disabled{background-position:left top !important}.text-controls .highslide-play a.disabled
+span{background-position:0 -160px}.text-controls .highslide-pause
+span{background-position:0 -80px}.text-controls .highslide-next
+span{background-position:0 -100px}.text-controls .highslide-next
+a.disabled{background-position:left top !important}.text-controls .highslide-next a.disabled
+span{background-position:0 -200px}.text-controls .highslide-full-expand
+span{background:none}.text-controls .highslide-full-expand
+a.disabled{background-position:left top !important}.text-controls .highslide-close
+span{background-position:0 -120px}.highslide-thumbstrip{height:100%;direction:ltr}.highslide-thumbstrip
+div{overflow:hidden}.highslide-thumbstrip
+table{position:relative;padding:0;border-collapse:collapse}.highslide-thumbstrip
+td{padding:1px}.highslide-thumbstrip
+a{outline:none}.highslide-thumbstrip
+img{display:block;border:1px
+solid gray;margin:0
+auto}.highslide-thumbstrip .highslide-active-anchor
+img{visibility:visible}.highslide-thumbstrip .highslide-marker{position:absolute;width:0;height:0;border-width:0;border-style:solid;border-color:transparent}.highslide-thumbstrip-horizontal
+div{width:auto}.highslide-thumbstrip-horizontal .highslide-scroll-up{display:none;position:absolute;top:3px;left:3px;width:25px;height:42px}.highslide-thumbstrip-horizontal .highslide-scroll-up
+div{margin-bottom:10px;cursor:pointer;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/scrollarrows.png) left center no-repeat;height:42px}.highslide-thumbstrip-horizontal .highslide-scroll-down{display:none;position:absolute;top:3px;right:3px;width:25px;height:42px}.highslide-thumbstrip-horizontal .highslide-scroll-down
+div{margin-bottom:10px;cursor:pointer;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/scrollarrows.png) center right no-repeat;height:42px}.highslide-thumbstrip-horizontal
+table{margin:2px
+0 10px 0}.highslide-viewport .highslide-thumbstrip-horizontal
+table{margin-left:10px}.highslide-thumbstrip-horizontal
+img{width:auto;height:40px}.highslide-thumbstrip-horizontal .highslide-marker{top:47px;border-left-width:6px;border-right-width:6px;border-bottom:6px solid gray}.highslide-viewport .highslide-thumbstrip-horizontal .highslide-marker{margin-left:10px}.dark .highslide-thumbstrip-horizontal .highslide-marker, .highslide-viewport .highslide-thumbstrip-horizontal .highslide-marker{border-bottom-color:white !important}.highslide-thumbstrip-vertical-overlay{overflow:hidden !important}.highslide-thumbstrip-vertical
+div{height:100%}.highslide-thumbstrip-vertical
+a{display:block}.highslide-thumbstrip-vertical .highslide-scroll-up{display:none;position:absolute;top:0;left:0;width:100%;height:25px}.highslide-thumbstrip-vertical .highslide-scroll-up
+div{margin-left:10px;cursor:pointer;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/scrollarrows.png) top center no-repeat;height:25px}.highslide-thumbstrip-vertical .highslide-scroll-down{display:none;position:absolute;bottom:0;left:0;width:100%;height:25px}.highslide-thumbstrip-vertical .highslide-scroll-down
+div{margin-left:10px;cursor:pointer;background:url(/web/20101003040035/http://www.shapeways.com/styles/graphics/scrollarrows.png) bottom center no-repeat;height:25px}.highslide-thumbstrip-vertical
+table{margin:10px
+0 0 10px}.highslide-thumbstrip-vertical
+img{width:60px}.highslide-thumbstrip-vertical .highslide-marker{left:0;margin-top:8px;border-top-width:6px;border-bottom-width:6px;border-left:6px solid gray}.dark .highslide-thumbstrip-vertical .highslide-marker, .highslide-viewport .highslide-thumbstrip-vertical .highslide-marker{border-left-color:white}.highslide-viewport .highslide-thumbstrip-float{overflow:auto}.highslide-thumbstrip-float
+ul{margin:2px
+0;padding:0}.highslide-thumbstrip-float
+li{display:block;height:60px;margin:0
+2px;list-style:none;float:left}.highslide-thumbstrip-float
+img{display:inline;border-color:silver;max-height:56px}.highslide-thumbstrip-float .highslide-active-anchor
+img{border-color:black}.highslide-thumbstrip-float .highslide-scroll-up div, .highslide-thumbstrip-float .highslide-scroll-down
+div{display:none}.highslide-thumbstrip-float .highslide-marker{display:none}

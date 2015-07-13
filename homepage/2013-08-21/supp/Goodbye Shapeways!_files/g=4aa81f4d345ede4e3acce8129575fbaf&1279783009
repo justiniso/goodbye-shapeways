@@ -1,0 +1,63 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 4:00:46 Oct 3, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 3:12:00 Jul 2, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+#categoryListBox{position:relative;border:1px
+solid #D9E7F5;margin:0
+0 20px 0;padding:0}#categoryListBox
+h2{background-color:#EDF2F9;border-bottom:1px solid #D9E7F5;color:#404040;font-size:1em;font-weight:bold;padding-bottom:5px;padding-left:8px;padding-top:6px;text-shadow:0 2px 1px #FFF;margin:0}ul#categoryList{list-style:none;margin:0;height:auto;color:#FFF}ul#categoryList
+li{position:relative;padding:0;margin:0;list-style:none;z-index:1}ul#categoryList li ul li ul
+li{}ul#categoryList li:hover{background:#f5f6fb;z-index:150}ul#categoryList li a:link,
+ul#categoryList li a:visited{display:block;height:23px;padding:5px
+0 0 10px;overflow:hidden;text-decoration:none;border-bottom:1px dashed #ddd;background:url(/web/20101003040046/http://www.shapeways.com/img/shapeways/arrow.jpg) no-repeat 192px -24px}ul#categoryList li.last a:link,
+ul#categoryList li.last a:visited{border-bottom:none}ul#categoryList li a:hover,
+ul#categoryList li
+a.selected{background:#f5f6fb;background-image:none;text-decoration:underline;font-weight:bold}ul#categoryList
+ul.submenu1{display:none;background:#f5f6fb !important;left:180px;top:0;margin:0;width:180px;position:absolute;z-index:99;border-left:none}ul#categoryList li:hover
+ul.submenu1{display:block;border-top:1px dashed #ddd;top: -1px;border-right:3px solid white;border-bottom:3px solid white}ul#categoryList
+ul.wide{width:355px;margin:0}ul#categoryList ul
+li.left{margin:0;width:145px;float:left;margin-top:5px;padding:0
+14px 0px 14px}ul#categoryList ul li.left
+ul{margin:0}ul#categoryList ul.wide
+li.right{width:158px;float:left;margin-top:5px;padding:0
+10px 10px 10px;border-left:1px solid #d3e6ea}ul#categoryList ul.submenu1 li
+a{display:block;padding-bottom:5px;padding-top:0px !important;padding-left:0px;height:auto;background:#f5f6fb !important;font-weight:normal;border:none}ul#categoryList ul.submenu1
+ul.submenu2{position:relative;display:block;padding:0
+0 10px 0}ul#categoryList ul.submenu1 ul.submenu2
+li{display:inline}ul#categoryList ul.submenu1 ul.submenu2 li
+a{display:inline;color:#333;border:none}ul#categoryList ul.submenu1 ul.submenu2 li a:hover{text-decoration:underline}html>body ul#categoryList
+ul.current{margin:0;border-bottom:1px dashed #ddd}html* ul#categoryList
+ul.current{margin-top: -15px !important;border-bottom:1px dashed #ddd}html>body
+ul.subsubitemblock{margin:0;border-bottom:1px dashed #ddd}html* ul#categoryList
+ul.subsubitemblock{margin-top:5px !important;border-bottom:1px dashed #ddd}ul#categoryList ul.current li a,
+ul#categoryList ul.current li a:visited,
+ul#categoryList ul.current li
+a.selected{display:block;position:relative;height:23px;padding:5px
+0 0 20px;overflow:hidden;text-decoration:none;font-weight:normal;border:none}ul#categoryList li ul.current li,
+ul#categoryList li ul.current li ul.current
+li{background:white}ul#categoryList ul.current li ul.submenu2
+a{background:#f5f6fb}ul#categoryList li ul.current li a:hover,
+ul#categoryList li ul.current li:hover,
+ul#categoryList li ul.current li ul.current li a:hover{background:#f5f6fb;background-mage:none}ul#categoryList ul.current li
+a.active{font-weight:bold}ul#categoryList li ul.current li ul
+li{background:#F5F6FB;border-bottom:5px solid transparant}ul#categoryList ul.current
+span{display:none}ul#categoryList ul.current
+ul{display:none}ul#categoryList ul.current li:hover
+ul{position:absolute;display:block;margin:0;padding:5px
+10px 5px 10px;width:150px;left:180px;top:0;background:#f5f6fb}ul#categoryList ul.current ul li a,
+ul#categoryList ul.current ul li a:visited{display:block;height:auto;padding:5px
+0 0 10px}ul#categoryList ul.current li a:hover{text-decoration:underline}ul#categoryList ul.current li:hover ul.current,
+ul#categoryList ul.current
+ul.current{display:block !important;position:relative;left:0;margin:0;padding:0;width:auto;border-bottom:1px dashed #ddd;background:none}ul#categoryList ul.current ul.current li
+a{display:block;height:auto;padding:2px
+0 3px 30px;color:#333;border:none;background:none !important}ul#categoryList
+ul.current{background:none}

@@ -1,0 +1,215 @@
+
+<!-- saved from url=(0045)http://justiniso.github.io/goodbye-shapeways/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Goodbye Shapeways!</title>
+        <script type="text/javascript" src="./Goodbye Shapeways!_files/jquery-2.1.4.min.js"></script><style type="text/css"></style>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="./Goodbye Shapeways!_files/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./Goodbye Shapeways!_files/bootstrap-dropdown.js"></script>
+        <script type="text/javascript" src="./Goodbye Shapeways!_files/js.cookie.js"></script>
+
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                min-height: 1200px;
+            }
+
+            .next, .previous {
+                cursor: pointer;
+            }
+
+            /* FOR HOVER NAV DROPDOWNS BELOW */
+
+            .sidebar-nav {
+                padding: 9px 0;
+            }
+
+            .dropdown-menu .sub-menu {
+                left: 100%;
+                position: absolute;
+                top: 0;
+                visibility: hidden;
+                margin-top: -1px;
+            }
+
+            .dropdown-menu li:hover .sub-menu {
+                visibility: visible;
+            }
+
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+
+            .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+                margin-top: 0;
+            }
+
+            .navbar .sub-menu:before {
+                border-bottom: 7px solid transparent;
+                border-left: none;
+                border-right: 7px solid rgba(0, 0, 0, 0.2);
+                border-top: 7px solid transparent;
+                left: -7px;
+                top: 10px;
+            }
+            .navbar .sub-menu:after {
+                border-top: 6px solid transparent;
+                border-left: none;
+                border-right: 6px solid #fff;
+                border-bottom: 6px solid transparent;
+                left: 10px;
+                top: 11px;
+                left: -6px;
+            }
+
+        </style>
+        <script type="text/javascript">
+            index = 1;
+
+            var handleClick = function (i) {
+                jQuery("[tabindex=\"" + i + "\"]").click();
+
+                if (index <= 1) {
+                    jQuery(".previous").addClass("disabled");
+                    index = 1;
+                } else {
+                    jQuery(".previous").removeClass("disabled");
+                }
+            };
+
+            jQuery(document).ready(function () {
+
+                var $iframe = jQuery("iframe");
+                jQuery(".links li > a").on("click", function (e) {
+                    e.preventDefault();
+                    $iframe.attr("src", this.href);
+
+                    jQuery(".current").html(jQuery(this).html());
+
+                    index = jQuery(this).attr("tabindex");
+                });
+
+                jQuery(".next").on("click", function (e) {
+                    index++;
+                    handleClick(index);
+                });
+
+                jQuery(".previous").on("click", function (e) {
+                    index--;
+                    handleClick(index);
+                });
+
+                // Do stuff on page load
+                handleClick(index);
+
+                // Set cookie for one day
+                if (Cookies.get('visited') === '1') {
+                    console.log('no modal');
+                } else {
+                    console.log('show modal');
+                    Cookies.set('visited', '1');
+                    jQuery('.modal').modal();
+                }
+
+            });
+        </script>
+    </head>
+    <body class="">
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="http://justiniso.github.io/goodbye-shapeways/#" class="dropdown-toggle" data-toggle="dropdown" data-dropdown="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Homepage <span class="caret"></span></a>
+                    <ul class="links dropdown-menu">
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2008-09-13/index.html" tabindex="1">Homepage - September 13, 2008</a></li>
+                        <li><a href="./Goodbye Shapeways!_files/index.html" tabindex="2">Homepage - October 3, 2010</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2012-06-15/index.html" tabindex="3">Homepage - June 15, 2012</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2012-09-08/index.html" tabindex="4">Homepage - September 8, 2012</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2013-01-05/index.html" tabindex="5">Homepage - January 5, 2013</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2013-04-18/index.html" tabindex="6">Homepage - April 18, 2013</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2013-08-21/index.html" tabindex="7">Homepage - August 21, 2013</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2014-04-30/index.html" tabindex="8">Homepage - April 30, 2014</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/homepage/2014-05-05/index.html" tabindex="9">Homepage - May 5, 2014</a></li>
+                        <li><a href="http://shapeways.com/" tabindex="10">Homepage - Today</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://justiniso.github.io/goodbye-shapeways/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marketplace <span class="caret"></span></a>
+                    <ul class="links dropdown-menu">
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2009-02-10/index.html" tabindex="11">Marketplace - February 10, 2009</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2010-03-28/index.html" tabindex="12">Marketplace - March 28, 2010</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2010-10-06/index.html" tabindex="13">Marketplace - October 6, 2010</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2012-03-14/index.html" tabindex="14">Marketplace - March 14, 2012</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2012-08-14/index.html" tabindex="15">Marketplace - August 14, 2012</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2013-09-13/index.html" tabindex="16">Marketplace - September 13, 2013</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/marketplace/2014-09-17/index.html" tabindex="17">Marketplace - September 17, 2014</a></li>
+                        <li><a href="http://shapeways.com/marketplace" tabindex="18">Marketplace - Today</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://justiniso.github.io/goodbye-shapeways/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forum <span class="caret"></span></a>
+                    <ul class="links dropdown-menu">
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/forum/2008-09-15/index.html" tabindex="19">Forum - September 15, 2008</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/forum/2012-10-12/index.html" tabindex="20">Forum - October 12, 2012</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/forum/2013-05-13/index.html" tabindex="21">Forum - May 13, 2013</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/forum/2014-10-22/index.html" tabindex="22">Forum - October 22, 2014</a></li>
+                        <li><a href="http://justiniso.github.io/goodbye-shapeways/forum/2015-03-15/index.html" tabindex="23">Forum - March 15, 2015</a></li>
+                        <li><a href="http://shapeways.com/forum" tabindex="24">Forum - Today</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            
+        </nav>
+        <ul class="pager">
+            <li class="previous"><a><span aria-hidden="true">←</span> Back in time</a></li>
+            <li class="current">Homepage - October 3, 2010</li>
+            <li class="next"><a>Forward in time <span aria-hidden="true">→</span></a></li>
+        </ul>
+
+        <iframe src="./Goodbye Shapeways!_files/index.html"></iframe>
+        <div class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Dear Shapeways...</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                    With my last day fast approaching, the reality is sinking in that I have to say goodbye to all of you. Leaving is never easy, but I take solace in the fact that I'm leaving with newfound knowledge, unforgettable memories, and a number of great friends.
+                </p>
+                <br>
+                <p>
+                    I find that when good times near their end, nolstalgia is a welcome companion to help ease the transition. And if looming frustration and discouragement ever pay you a visit as they often did to me, just take a moment to remember how far we have come. 
+                </p>
+                <br>
+                <p>
+                    This is my parting gift to you: a highly abridged catalogue of the many phases and many faces of Shapways.com. Like any historian, I could only collect partial artifacts and did my best to restore the missing pieces. But even with its partial record, I hope it conjures up the happy memories for you it did for me. The rest is history that you have yet to make.
+                </p>
+                <br>
+                <p>
+                    Good luck!
+                    <br>
+                    Justin Iso
+                </p>
+                <br>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    
+
+
+</body></html>
